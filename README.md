@@ -1,2 +1,2 @@
 # sparklesite
-repo for files relating to the new site
+Repo for files relating to the new site
