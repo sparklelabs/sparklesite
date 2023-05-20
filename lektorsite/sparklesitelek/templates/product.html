@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<h2>{{ this.title }}</h2>
+<div class="row">
+  <div class="col" style="width:85%;padding-right:4px">
+    {{ this.gallery }}
+    <div class="productImage">
+      <img id="largeImage" src="{{ this.mainimage }}" alt="Default Image">
+      <!-- <div id="description">Default Description</div> -->
+    </div>
+  </div>
+  <div class="col" style="width:15%;padding-left:4px">
+    <div style="display:flex;flex-direction: column;gap:4px" id="thumbs">
+      {% for image in this.attachments.images %}
+      <div>
+        <img src="{{ image|url }}" style="object-fit:cover">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col half justify">
+    {{ this.body }}
+  </div>
+  <div class="col half" style=''>
+    <div class="section" style="margin-bottom:6em">
+
+      <span style="font-size:600%;margin-top: -20px;font-weight:100">
+        {{ this.price }}
+      </span>
+
+      <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:4em">
+        <INPUT NAME="item" TYPE="hidden" VALUE="4" />
+        <INPUT NAME="price" TYPE="hidden" VALUE="54.99" />
+        <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
+        <INPUT NAME="do" TYPE="hidden" VALUE="add" />
+        <select name="qty">
+          <option selected="selected" value="1" >1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+
+        <button alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
+          {{ this.addtocart }}
+        </button>
+      </FORM>
+    </div>
+    <hr>
+    <div class="section" style="width:50%">
+      {{ this.lessons }}
+      {{ this.downloads }}
+      {{ this.goeswith }}
+    </div>
+  </div>
+</div>
+{% endblock %}

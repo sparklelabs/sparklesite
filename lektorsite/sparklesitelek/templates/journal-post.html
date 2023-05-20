@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% from "macros/journal.html" import render_journal_post %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {{ render_journal_post(this) }}
+{% endblock %}

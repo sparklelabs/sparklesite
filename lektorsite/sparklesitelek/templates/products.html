@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2>{{ this.title }}</h2>
+  <div style="display:flex;gap:8px">
+    {% for product in site.get('/products').children %}
+      {% if this == product %} class="active"{% endif
+        %}
+    <div style="width:25%">
+    <a href="{{ product|url }}"><img src="{{ product|url }}{{ product.mainimage }}">{{ product.title }}</a></li>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}
