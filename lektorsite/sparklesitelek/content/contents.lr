@@ -1,8 +1,24 @@
+_model: home
+---
+hero:
+
+static/illustrations/breadboard.svg
+
+---
 title: Welcome to Sparkle Labs!
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a journal.
+You can make electronic circuits for fun and profit.
+See our [products.](products)
+Build the future.
 
-[Starting design with the PDP](products/discover-electronics)
+---
+leftcol:
+
+[![uvskull](/products/uvskull/uvSkullFront.jpg)](/products/uvskull/)
+
+---
+rightcol:
+
+right column

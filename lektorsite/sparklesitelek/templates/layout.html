@@ -8,47 +8,74 @@
 <title>{% block title %}Welcome{% endblock %} — sparklesitelek</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
-    window.onload = function () {
-$('#thumbs img').click(function(){
-    $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
-   // $('#description').html($(this).attr('alt'));
-});
-        };
+  window.onload = function () {
+      $('#thumbs img').click(function(){
+          $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+          // $('#description').html($(this).attr('alt'));
+      });
+  };
 </script>
 <body>
-<main>
-  <header>
-    <div class="row" style="margin-bottom:0px">
-    <div class="col" style="width:6%;height:100%;padding-right:12px">
-<img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image">
+  <main>
+    <div class="page">
+      <div id="content-wrap">
+        <header style="margin-top:24px;margin-bottom:48px">
+          <!-- <div class="row" style="margin-bottom:0px"> -->
+            <div class="" style="display:flex;align-items:flex-end">
+              <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image" style="bottom:0px;max-width:64px">
+              <div style="margin: 16px 0px 0px 8px">
+                <h1 style="margin:0px 0px 0px 0px;font-size:3em">Sparkle Labs</h1>
+                <nav style="padding-left:4px">
+                  <ul class="nav navbar-nav">
+                    <li{% if this._path == '/' %} class="active"{% endif
+                          %}><a href="{{ '/'|url }}">Home</a></li>
+                    {% for href, title in [
+                    ['/products', 'Products'],
+                    ['/learn', 'Learn'],
+                    ['/journal', 'Journal'],
+                    ['/projects', 'Projects'],
+                    ['/about', 'About']
+                    ] %}
+                    <li{% if this.is_child_of(href) %} class="active"{% endif
+                          %}><a href="{{ href|url }}">{{ title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          <!-- </div> -->
+        </header>
+        {% block body %}{% endblock %}
+      </div>
+    <footer style="padding-top:3em">
+      <hr>
+      <div style="display:flex;justify-content:space-between">
+        <span class="tiny">&copy; Copyright 2023 by Sparkle Labs.</span>
+        <div style="display:flex;gap:1px;max-height:8px">
+          <div style="color: var(--pink); background-color: var(--pink); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--red); background-color: var(--red); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--orange); background-color: var(--orange); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--yellow); background-color: var(--yellow); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--green); background-color: var(--green); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--blue); background-color: var(--blue); max-width:14px">
+            `
+          </div>
+          <div style="color: var(--violet); background-color: var(--violet); max-width:14px">
+            `
+          </div>
+        </div>
+      </div>
+    </footer>
     </div>
-    <div class="col" style="width:85%;padding-left:0px;padding-top:15px">
-    <h1>Sparkle Labs</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Home</a></li>
-        {% for href, title in [
-          ['/products', 'Products'],
-          ['/learn', 'Learn'],
-          ['/journal', 'Journal'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    </div>
-    </div>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
-  <footer style="padding-top:3em">
-    <hr>
-    <span class="tiny">&copy; Copyright 2023 by Sparkle Labs.</span>
-  </footer>
-</main>
+  </main>
 </body>
