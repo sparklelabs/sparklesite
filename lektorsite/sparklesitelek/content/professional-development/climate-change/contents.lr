@@ -1,0 +1,136 @@
+_model: page
+---
+title: Climate Change
+---
+body:
+
+### Goals
+
+- Give teachers tools to create lessons for NJSLS climate standards.
+- Review lessons Sparkle Labs has created that are applicable to the climate standards.
+- Teach the use and application of the *Watt Meter.*
+- Create a structured design workshop environment to allow the teachers to work together on the climate standards.
+
+[NJSLS : Climate Change : 6-8](njsls-climate-change-grades-6-8)
+
+[Google Drive Folder]( https://drive.google.com/drive/folders/10SbAm1weJ_vA5EuMK1Ko1_GUBhOf6LiA?usp=sharing )
+
+### Watt Meter
+
+- [Instructions](/products/watt-meter/wattmeter-instructions.pdf)
+- Application
+- Lesson
+
+Materials: wattmeter, electric bill, extension cords, powerstrips, appliances, laptop charger, water heater, lamp (incandescent, LED)
+
+### Electric Bill Analysis
+
+- Reading your bill
+- Downloading your energy usage data.
+- Manipulating data in google sheets
+
+- [Sample energy bill]( https://drive.google.com/file/d/1aInHunuYTFA099avDeo0QzoIQnhex-MB/view?usp=drive_link )
+- [Understanding your Energy Bill]( https://drive.google.com/file/d/18zdITlGJ8GoxnrcKX0AMztlH1OawlDyM/view?usp=drive_link ) (PSEG)
+- [Energy bill data spreadsheet]( https://docs.google.com/spreadsheets/d/1jEGsVbrx-ZkuV-cUQesxZ9LDisb8DsLR3vi7gzACDlE/edit?usp=drive_link )
+
+#### Notes
+
+cost per kWh = *price to compare* + delivery charges
+.184989 for me
+
+##### Explaining electric charges
+
+We charge for the electric you use in kilowatt
+hours (kWh). 1 kilowatt is equal to 1,000 watts.
+If you use a standard LCD TV which uses
+150 watts while operating, it would take
+7 hours of use to equal 1 kWh.
+
+### Design Charette
+
+**Materials:** prompt hand-outs, post-its, sharpies, laptop, shared google doc
+
+**Goal:** Develop lesson plans for NJSLS *performance expectations*
+
+**Part 1:** Groups of 4-5 will conduct a structured brainstorming session on individual NJSLS items.
+  1. Individuals brainstorm silently. Ideas are written on individal post-its.
+  2. Group members work together to classify and group the ideas.
+  3. Silent voting on ideas for a lesson.
+  4. Group outlines a rough lesson based on the chosen idea(s)
+
+**Part 2:** The groups will rotate in a *world cafe* framework to give feedback on rough lesson plans.
+
+**Part 3:** Groups reform to action any feedback. 
+
+**Part 4:** Presentation of lesson outlines
+
+### Sample Units
+
+[NGSS Middle School Library - ESS2 ESS3 - Climate Change Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/62bf84a3-fa6f-4eba-851b-c6c87386c730/grade/8)
+
+[Middle School: Disruptions in Ecosystems | Next Generation Science Standards | LS-2-4](https://www.nextgenscience.org/resources/middle-school-disruptions-ecosystems)
+
+[Weather & Climate for 6th Grade - MS-PS1-4, MS-ESS2-4, MS-ESS2-5, MS-ESS2-66th Grade Science Weather and Climate - OpenSciEd](https://www.openscied.org/instructional-materials/6-3-weather-climate-water-cycling/)
+
+[6th Grade Plate Tectonics - MS-ESS1-1, MS-ESS2-1, MS-ESS2-2, MS-ESS2-3](https://www.openscied.org/instructional-materials/6-4-rock-cycling-plate-tectonics/)
+
+[7th Grade Ecosystem Dynamics - MS-LS2-1, MS-LS2-2, MS-LS2-4, MS-LS2-5, MS-ESS3-3, MS-ETS1-1](https://www.openscied.org/instructional-materials/7-5-ecosystem-dynamics/)
+
+[Weather & Climate for 6th Grade - MS-PS1-4, MS-ESS2-4, MS-ESS2-5, MS-ESS2-66th Grade Science Weather and Climate - OpenSciEd](https://www.openscied.org/instructional-materials/6-3-weather-climate-water-cycling/)
+
+[Photosynthesis 7th Grade - MS-LS1-6, MS-LS2-3, MS-PS1-3, MS-LS1-2](https://www.openscied.org/instructional-materials/7-4-matter-cycling-photosynthesis/)
+
+[NGSS Middle School Library - MS-LS2-5 - Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/629061e6-0bed-4065-87c7-0cdf5321dfe8/grade/6)
+
+[NGSS Middle School Library - Earth Systems - Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/61bfb844-674e-4ff9-97de-52cb67825aa3/grade/8)
+
+[NGSS Middle School Library - Human Impacts on Ecosystems - Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/62be8683-35fd-4cfd-bc06-9de05200f042/grade/8)
+
+[NGSS Middle School Library - What can learn from nature's energy engineers? Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/60592a3e-8182-4f99-aafe-7cc451344f58/grade/8)
+
+[NGSS Middle School Library - How does our planet recycle? -  Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/61bfb844-674e-4ff9-97de-52cb67825aa3/grade/8/standards)
+
+[NGSS Middle School Library - Ecosystems - How can we prevent plastics from harming marine life? -  Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/60a74be0-8f47-4e65-ab32-748df820166b/grade/7)
+
+[NGSS Middle School Library - Biodiversity - Do we need to save the bees? -  Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/629061e6-0bed-4065-87c7-0cdf5321dfe8/grade/6)
+
+[NGSS Middle School Library - Resources - How did the ancient Mayans use natural resources? Stile](https://stileapp.com/au/library/publishers/stile/compilations/science-ngss/618496c5-6e06-4f67-a438-f83e5c7fba6a/grade/supplementary)
+
+[Photosynthesis 7th Grade - MS-LS1-6, MS-LS2-3, MS-PS1-3, MS-LS1-2](https://www.openscied.org/instructional-materials/7-4-matter-cycling-photosynthesis/)
+
+[Weather & Climate for 6th Grade - MS-PS1-4, MS-ESS2-4, MS-ESS2-5, MS-ESS2-66th Grade Science Weather and Climate - OpenSciEd](https://www.openscied.org/instructional-materials/6-3-weather-climate-water-cycling/)
+
+[7.6 Earth's Resources & Human Impact - MS-ESS3 - OpenSciEd](https://www.openscied.org/instructional-materials/7-6-earths-resources-human-impact/)
+
+[Natural Hazards for 6th Grade Science - MS-ESS3-2, MS-PS4-3, MS-ETS1-1, MS-ETS1-2](https://www.openscied.org/instructional-materials/6-5-natural-hazards/)
+
+[Protect Your Body, Filter Your Water! - MS-ESS3-3 MS-ETS1-4 - Activity - TeachEngineering](https://www.teachengineering.org/activities/view/wpi_protect_activity1)
+
+[Grade 8 Understanding White Sharks - MS-ESS3-4 ](http://k12alliance.org/earlyimplementers/Grade8/index.html)
+
+[6th Grade Science Thermal Energy - MS-PS1-4. MS-PS3-3, MS-PS3-4, MS-PS3-5, MS-PS4-2, **MS-ETS1-4**](https://www.openscied.org/instructional-materials/6-2-thermal-energy/)
+
+
+### Links
+
+[NJSLS site]( https://www.nj.gov/education/standards/climate/learning/gradeband/ )
+
+[Presentation: New Jersey Clean Energy Program for LGEA Exit meeting MBofED]( https://njcleanenergy.com/files/file/0%20LGEA%20Presentations/M/Montclair%20Board%20of%20Education%20%28SDGMCLR%29.pdf )
+
+[NJ Scientific Report on Climate Change]( https://www.nj.gov/dep/climatechange/data.html )
+
+[Heat Island Map]( https://experience.arcgis.com/experience/6fcc4aee204e4695b0c8ae25af3d8f13 )
+
+[Montclair Water Quality Reports]( https://www.montclairnjusa.org/government/departments/water_bureau_sewer_utility/consumer_confidence_reports )
+
+[New Jersey Middle School Science Standards — The Wonder of Science](https://thewonderofscience.com/new-jersey-ms-course-model)
+
+### Artifacts
+
+- [ ] *Reading your Bill* (PDF+print)
+- [ ] *Using your Energy Data* (PDF+print)
+- [ ] Energy data example spreadsheet (google sheet)
+- [ ] *Using Your Watt Meter* (PDF+print)
+- [ ] *Design Charette Prompts* (PDF+print)
+- [ ] Design Charette Output (google doc)
+- [ ] *Lesson Outline Template* (google doc)

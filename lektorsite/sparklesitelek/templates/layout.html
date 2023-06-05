@@ -1,5 +1,6 @@
 <!doctype html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Inter:wght@100;400;700;900&display=swap" rel="stylesheet">
@@ -20,11 +21,11 @@
     <div class="page">
       <div id="content-wrap">
         <header style="margin-top:24px;margin-bottom:48px">
-          <!-- <div class="row" style="margin-bottom:0px"> -->
             <div class="" style="display:flex;align-items:flex-end">
               <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image" style="bottom:0px;max-width:64px">
               <div style="margin: 16px 0px 0px 8px">
                 <h1 style="margin:0px 0px 0px 0px;font-size:3em">Sparkle Labs</h1>
+                <!--
                 <nav style="padding-left:4px">
                   <ul class="nav navbar-nav">
                     <li{% if this._path == '/' %} class="active"{% endif
@@ -41,9 +42,9 @@
                     {% endfor %}
                   </ul>
                 </nav>
+                -->
               </div>
             </div>
-          <!-- </div> -->
         </header>
         {% block body %}{% endblock %}
       </div>

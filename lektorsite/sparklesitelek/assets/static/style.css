@@ -14,16 +14,19 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-size: 100%;
     margin: 0px 0px;
-	background-color: var(--white);
+    background-color: var(--white);
     color: var(--black);
 }
 
+.inline {
+display: inline;
+}
+
 div.page {
-    width: 960px;
+    /* width: 960px; */
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
@@ -51,9 +54,9 @@ footer {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 h2 {
-    font-weight: 200;
     text-transform: uppercase;
-    font-size: 500%;
+    font-weight: 200;
+    /* font-size: 500%; */
     margin-bottom: .25em;
     margin-top: 0em;
 }
