@@ -2,8 +2,8 @@ title: Hello Website
 ---
 pub_date: 2023-05-02
 ---
-author: me me
+author: Ariel
 ---
 body:
 
-This is an example journal post.  Not much here but that's not the point :)
+Here is a first post on this new website. I am trying out a *static site generator*. It is called lektor and written in python. It has a cms and works with markdown so I pretty pleased. You can find out more about Lektor here: [Welcome | Lektor Static Content Management System](https://www.getlektor.com/).

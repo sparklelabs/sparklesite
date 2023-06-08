@@ -1,4 +1,3 @@
-
 _model: product
 ---
 title: Multimeter
@@ -8,7 +7,6 @@ mainimage:
 multimeter.jpg
 
 ---
-
 body:
 
 
@@ -31,17 +29,12 @@ Used by schools and universities to teach math, electronics, robotics and engine
 ---
 price:
 
-$54.99
+$12.00
 
 ---
 addtocart: Add to Cart
 ---
-lessons:
-
-### Lessons
-
-[![Discover Electronics Lesson](/learn/discover-electronics/discoverElectronicsLesson.jpg)](/learn/discover-electronics)
-[The Discover Electronics Kit Lessons](/learn/discover-electronics)
+lessons: 
 ---
 downloads:
 
@@ -50,12 +43,4 @@ downloads:
 [![Discover Electronics Cheatsheet](/downloads/cheatsheet-0.jpg)](/downloads/discoverkit-cheatsheet.pdf)
 [Cheat sheet](/downloads/discoverkit-cheatsheet.pdf)
 ---
-goeswith:
-
-### Goes Well With
-
-[![Multimeter](/products/mulitmeter/multimeter.jpg)](/products/multimeter)
-[Multimeter](/products/multimeter)
-
-[![Multimeter](/products/mulitmeter/multimeter.jpg)](/products/multimeter)
-[Arduino UNO](/products/multimeter)
+goeswith: 
