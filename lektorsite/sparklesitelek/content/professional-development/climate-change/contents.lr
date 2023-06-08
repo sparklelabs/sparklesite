@@ -17,17 +17,23 @@ body:
 
 ### Watt Meter
 
-- [Instructions](/products/watt-meter/wattmeter-instructions.pdf)
-- Application
-- Lesson
+[Instructions](/products/watt-meter/wattmeter-instructions.pdf)
 
 Materials: wattmeter, electric bill, extension cords, powerstrips, appliances, laptop charger, water heater, lamp (incandescent, LED)
+
+#### Basic operation
+
+1. Connect wattmeter to power.
+2. Set _Cost per kWh._
+3. Connect appliance to wattmeter.
 
 ### Electric Bill Analysis
 
 - Reading your bill
 - Downloading your energy usage data.
 - Manipulating data in google sheets
+  - Separating gas/electric
+  - Graphing usage 
 
 - [Sample energy bill]( https://drive.google.com/file/d/1aInHunuYTFA099avDeo0QzoIQnhex-MB/view?usp=drive_link )
 - [Understanding your Energy Bill]( https://drive.google.com/file/d/18zdITlGJ8GoxnrcKX0AMztlH1OawlDyM/view?usp=drive_link ) (PSEG)
@@ -63,6 +69,41 @@ If you use a standard LCD TV which uses
 **Part 3:** Groups reform to action any feedback. 
 
 **Part 4:** Presentation of lesson outlines
+
+#### Writing a lesson
+
+[How to Write NGSS Lesson Plans | Albert.io](https://www.albert.io/blog/how-to-write-ngss-lesson-plans/)
+
+[Critical Features of Instructional Materials Design for Today’s Science Standards | Next Generation Science Standards](https://www.nextgenscience.org/resources/critical-features-instructional-materials-design-today%E2%80%99s-science-standards)
+
+1. *Performance Expectation*. A PE is not a learning objective, but rather, a series of goals that guide the activities and lessons you select.
+2. Using the *Disciplinary Core Idea* (DCI), brainstorm some ideas for phenomena: objects or events that scientists study in the world around them. Ideally this should be something interesting or meaningful to the students.
+3. Find the competencies that will demonstrate how well the students learned the related concepts and practices. Will the students formulate questions to investigate, analyze data, or develop models?
+4. Which on the seven *Crosscutting Concepts* is most relevant to this Performance Expectations?
+5. Write a *Learning Performance.* A single statement describing the objective of the lesson. The *Learning Performance* focuses on a single step in the instructional sequence.
+
+      At each step of the lesson sequence, you should be thinking about ways to incorporate the three dimensions into your lesson plans. The NGSS guidelines suggest asking yourself some questions. What are some commonly-held student ideas (both troublesome and helpful) about this topic? How could instruction build on them? What prior concepts do students need to learn to understand the core ideas? What level of abstraction is expected of them? What representations or media help students make sense of core ideas? What practices could students engage in to explore phenomena and representations of this concept? Are there crosscutting concepts that could support learning the core idea?
+      
+##### The 5E Lesson Framework
+      
+1. Engage Lesson
+2. Exploration Lesson
+3. Explanation Lesson
+4. Elaboration Lesson
+5. Evaluation Lesson
+
+##### Example Lesson Sections
+
+- Description
+- Objectives
+- Vocabulary
+- Materials
+- Background Information
+- Method
+- Discussion
+- Extension
+- Worksheet
+- Notes and Observations
 
 ### Sample Units
 
@@ -116,6 +157,10 @@ If you use a standard LCD TV which uses
 [NJSLS site]( https://www.nj.gov/education/standards/climate/learning/gradeband/ )
 
 [NGSS Lesson Screener | Next Generation Science Standards](https://www.nextgenscience.org/resources/ngss-lesson-screener)
+
+[Critical Features of Instructional Materials Design for Today’s Science Standards | Next Generation Science Standards](https://www.nextgenscience.org/resources/critical-features-instructional-materials-design-today%E2%80%99s-science-standards)
+
+[Resources — The Wonder of Science](https://thewonderofscience.com/documents)
 
 [Presentation: New Jersey Clean Energy Program for LGEA Exit meeting MBofED]( https://njcleanenergy.com/files/file/0%20LGEA%20Presentations/M/Montclair%20Board%20of%20Education%20%28SDGMCLR%29.pdf )
 

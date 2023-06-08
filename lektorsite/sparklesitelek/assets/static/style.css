@@ -13,10 +13,15 @@
 }
 
 body {
+margin-bottom: 1em;
     font-family: 'Inter', sans-serif;
     margin: 0px 0px;
     background-color: var(--white);
     color: var(--black);
+}
+
+.logo {
+
 }
 
 .inline {
@@ -65,7 +70,6 @@ h3 {
     color: var(--pink);
 	text-transform: uppercase;
 }
-
 header nav ul {
     list-style: none;
     margin: 0;
@@ -73,8 +77,9 @@ header nav ul {
 }
 
 header nav ul li {
+      line-height: 16px;
     font-weight: 400;
-    display: inline;
+    font-size: 80%;
     margin: 0 8px 0 0;
     padding: 0;
 }
@@ -87,6 +92,7 @@ header nav ul li a:hover {
     text-decoration-style: wavy;
     text-decoration-color: var(--pink);
 }
+
 
 div.page {
 }
@@ -114,7 +120,7 @@ fourthree {
   border:2px;
 }
 
-p:first-of-type {
+p:first-of-type, h2:first-of-type, h3:first-of-type, h4:first-of-type, h5:first-of-type, h6:first-of-type {
     margin-top: 0px
 }
 p:last-of-type {
@@ -123,8 +129,8 @@ p:last-of-type {
 
 button, select {
 	display: inline-block;
-	height: 38px;
-	padding: 0 20px;
+	height: 36px;
+	padding: 0 12px;
 	text-align: center;
 	font-size: 100%;
 	font-weight: 400;
@@ -150,7 +156,8 @@ button:hover, select:hover {
 }
 
 hr {
-    border: 1px dashed var(--grey);
+  border: none;
+    border-top: 2px dotted var(--yellow);
 }
 
 a {
@@ -185,9 +192,19 @@ a:hover {
   color:rgba(0,0,0,0.5);
 }
 
-#thumbs {
-  img {
-    /* height:50px; */
-    /* cursor:pointer; */
+
+@media only screen and (min-width: 860px) {
+  header nav {
+  margin-bottom: 8px;
+}
+  header nav ul li {
+      display: inline;
   }
+button, select {
+	height: 42px;
+	padding: 0 18px;
+}
+}
+
+@media only screen and (min-width: 1067px) {
 }

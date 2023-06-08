@@ -3,64 +3,66 @@
 {% block body %}
 <h2>{{ this.title }}</h2>
 <div class="row">
-  <div class="col" style="width:90%;gap:4px">
+  <div class="col w90">
     {{ this.gallery }}
     <div class="productImage">
       <img id="largeImage" src="{{ this.mainimage }}" alt="Default Image">
       <!-- <div id="description">Default Description</div> -->
     </div>
   </div>
-  <div class="col" style="width:15%;">
-    <div style="display:flex;flex-direction: column;gap:4px" id="thumbs">
-      {% for image in this.attachments.images %}
-      <div>
-        <img src="{{ image|url }}" style="object-fit:cover">
-      </div>
-      {% endfor %}
+  <div class="col" id="thumbs">
+    {% for image in this.attachments.images %}
+    <div>
+      <img src="{{ image|url }}" style="object-fit:cover">
     </div>
+    {% endfor %}
   </div>
 </div>
-<div class="row">
-  <div class="col half justify">
+<div class="section" style="margin-bottom:6em">
+
+  <span style="font-size:600%;font-weight:100">
+    {{ this.price }}
+  </span>
+
+  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:4em">
+    <INPUT NAME="item" TYPE="hidden" VALUE="4" />
+    <INPUT NAME="price" TYPE="hidden" VALUE="54.99" />
+    <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
+    <INPUT NAME="do" TYPE="hidden" VALUE="add" />
+    <select name="qty">
+      <option selected="selected" value="1" >1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+    </select>
+
+    <button alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
+      {{ this.addtocart }}
+    </button>
+  </FORM>
+</div>
+<hr style="margin-bottom:2em">
+<div class="row" style="gap:4em;">
+  <div class="col justify">
     {{ this.body }}
   </div>
   <div class="col half" style=''>
-    <div class="section" style="margin-bottom:6em">
-
-      <span style="font-size:600%;margin-top: -20px;font-weight:100">
-        {{ this.price }}
-      </span>
-
-      <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:4em">
-        <INPUT NAME="item" TYPE="hidden" VALUE="4" />
-        <INPUT NAME="price" TYPE="hidden" VALUE="54.99" />
-        <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
-        <INPUT NAME="do" TYPE="hidden" VALUE="add" />
-        <select name="qty">
-          <option selected="selected" value="1" >1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-        </select>
-
-        <button alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
-          {{ this.addtocart }}
-        </button>
-      </FORM>
-    </div>
-    <hr>
-    <div class="section" style="width:50%">
-      {{ this.lessons }}
-      {{ this.downloads }}
-      {{ this.goeswith }}
-    </div>
+        <div class="section">
+        {{ this.lessons }}
+        </div>
+        <div class="section">
+        {{ this.downloads }}
+        </div>
+        <div class="section">
+        {{ this.goeswith }}
+        </div>
   </div>
 </div>
 {% endblock %}
