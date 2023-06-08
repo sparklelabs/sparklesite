@@ -27,10 +27,7 @@ After mastering the basics of real-world circuits with our sample projects, you 
 Used by schools and universities to teach math, electronics, robotics and engineering.
 
 ---
-price:
-
-$12.00
-
+price: 12.00
 ---
 addtocart: Add to Cart
 ---
@@ -46,3 +43,5 @@ downloads:
 goeswith: 
 ---
 sort_key: 1
+---
+shopslabsnum: 199

@@ -25,10 +25,24 @@
   </span>
 
   <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:4em">
-    <INPUT NAME="item" TYPE="hidden" VALUE="4" />
-    <INPUT NAME="price" TYPE="hidden" VALUE="54.99" />
+    <INPUT NAME="item" TYPE="hidden" VALUE="{{ this.shopslabsnum }}" />
+    <INPUT NAME="price" TYPE="hidden" VALUE="{{ this.price }}" />
     <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
     <INPUT NAME="do" TYPE="hidden" VALUE="add" />
+    {% if this.size %}
+    <select name="size">
+      {% for item in this.size %}
+        <option value="{{ item }}">{{ item }}</option>
+      {% endfor %}
+    </select>
+    {% endif %}
+    {% if this.color %}
+    <select name="color">
+      {% for item in this.color %}
+        <option value="{{ item }}">{{ item }}</option>
+      {% endfor %}
+    </select>
+    {% endif %}
     <select name="qty">
       <option selected="selected" value="1" >1</option>
       <option value="2">2</option>
@@ -44,11 +58,11 @@
     </select>
 
     <button alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
-      {{ this.addtocart }}
+      Add to cart
     </button>
   </FORM>
 </div>
-<hr style="margin-bottom:2em">
+<hr>
 <div class="row" style="gap:4em;">
   <div class="col justify">
     {{ this.body }}

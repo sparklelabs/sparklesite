@@ -1,6 +1,6 @@
 _model: product
 ---
-title: UV Skull
+title: Blacklight Skull
 ---
 mainimage:
 
@@ -28,12 +28,9 @@ After mastering the basics of real-world circuits with our sample projects, you 
 Used by schools and universities to teach math, electronics, robotics and engineering.
 
 ---
-price:
-
-$54.99
-
+price: 12.00
 ---
-addtocart: Add to Cart
+addtocart: 
 ---
 lessons:
 
@@ -60,3 +57,5 @@ goeswith:
 [Arduino UNO](/products/multimeter)
 ---
 sort_key: 1
+---
+shopslabsnum: 194

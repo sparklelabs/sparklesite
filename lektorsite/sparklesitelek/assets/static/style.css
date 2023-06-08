@@ -13,7 +13,7 @@
 }
 
 body {
-margin-bottom: 1em;
+margin-bottom: 16px;
     font-family: 'Inter', sans-serif;
     margin: 0px 0px;
     background-color: var(--white);
@@ -51,12 +51,12 @@ header {
 
 footer {
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 24px;            /* Footer height */
   position: relative;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 24px;    /* Footer height */
 }
 h2 {
     text-transform: uppercase;
@@ -152,7 +152,7 @@ button:hover, select:hover {
 }
 
 .section {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
 }
 
 hr {
@@ -177,7 +177,9 @@ a:hover {
 .justify {
     text-align: justify;
 }
-
+.multiply {
+  mix-blend-mode:multiply;
+}
 .productImage{
   img#largeImage{
     height:500px;
@@ -194,7 +196,7 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 480px) {
   header nav {
   margin-bottom: 8px;
 }
@@ -207,5 +209,5 @@ button, select {
 }
 }
 
-@media only screen and (min-width: 1067px) {
+@media only screen and (min-width: 1200px) {
 }

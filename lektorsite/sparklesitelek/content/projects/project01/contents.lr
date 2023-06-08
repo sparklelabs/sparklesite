@@ -1,3 +1,5 @@
 _model: page
 ---
-title: Project01
+title: The Starfish
+---
+mainimage: ../../static/defaultimage.png

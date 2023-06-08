@@ -1,0 +1,37 @@
+_model: product
+---
+title: LED Buttons
+---
+accessory: yes
+---
+body:
+
+LED buttons for use with electronic textile projects. Each button has a bypassable, 100ohm resistor.
+
+Available in 3 LED colors. Aqua, white, and pink.
+
+25 count.
+---
+price: 19.99
+---
+option:
+
+Aqua
+White
+Pink
+---
+shopslabsnum: 207
+---
+options:
+
+Aqua
+White
+Pink
+---
+color:
+
+Aqua
+White
+Pink
+---
+size: 
