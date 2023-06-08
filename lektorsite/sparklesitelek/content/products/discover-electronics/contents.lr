@@ -39,7 +39,7 @@ lessons:
 
 ### Lessons
 
-[![Discover Electronics Lesson](/learn/discover-electronics/discoverElectronicsLesson.jpg)](/learn/discover-electronics)
+[![Discover Electronics Lesson](/learn/discover-electronics/volts-amps-and-ohms-768x432.jpeg)](/learn/discover-electronics)
 [The Discover Electronics Kit Lessons](/learn/discover-electronics)
 ---
 downloads:
@@ -58,3 +58,7 @@ goeswith:
 
 [![Multimeter](/products/multimeter/multimeter.jpg)](/products/multimeter)
 [Arduino UNO](/products/multimeter)
+---
+accessory: no
+---
+sort_key: 0

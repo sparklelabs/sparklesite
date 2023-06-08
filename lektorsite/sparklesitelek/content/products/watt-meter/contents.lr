@@ -2,10 +2,7 @@ _model: product
 ---
 title: Watt Meter
 ---
-mainimage:
-
-discover-electronics-01.jpg
-
+mainimage: ../../static/defaultimage.png
 ---
 body:
 
@@ -58,3 +55,5 @@ goeswith:
 
 [![Multimeter](/products/multimeter/multimeter.jpg)](/products/multimeter)
 [Arduino UNO](/products/multimeter)
+---
+sort_key: 1

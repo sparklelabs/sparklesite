@@ -1,7 +1,5 @@
-_model: product
+_model: topic
 ---
-title: SunMod
+title: UV Skull
 ---
 mainimage: ../../static/defaultimage.png
----
-sort_key: 1

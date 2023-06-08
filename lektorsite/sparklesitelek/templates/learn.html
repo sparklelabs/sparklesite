@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2>{{ this.title }}</h2>
+  <div class="row wrap" style="">
+    {% for topic in this.children %}
+      {% if this == topic %} class="active"{% endif
+        %}
+    <div class="col" style="flex-basis: 23.7%">
+    <a href="{{ topic|url }}"><img src="{{ topic|url }}{{ topic.mainimage }}">{{ topic.title }}</a></li>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}

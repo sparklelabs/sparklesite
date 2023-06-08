@@ -1,7 +1,5 @@
-_model: product
+_model: topic
 ---
-title: SunMod
+title: Water Level Detector
 ---
 mainimage: ../../static/defaultimage.png
----
-sort_key: 1

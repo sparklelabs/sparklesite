@@ -1,14 +1,33 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
+  <div class="section">
   <h2>{{ this.title }}</h2>
-  <div style="display:flex;gap:8px">
-    {% for product in site.get('/products').children %}
+  <div class="row wrap" style="">
+    {% for product in site.get('/products').children.order_by('sort_key') %}
       {% if this == product %} class="active"{% endif
         %}
-    <div style="width:25%">
-    <a href="{{ product|url }}"><img src="{{ product|url }}{{ product.mainimage }}">{{ product.title }}</a></li>
-    </div>
+    {% if product.accessory != True %}
+      <div class="col" style="flex-basis: 23.7%">
+      <a href="{{ product|url }}"><img src="{{ product|url }}{{ product.mainimage }}">{{ product.title }}</a>
+      </div>
+    {% endif %}
     {% endfor %}
+  </div>
+  </div>
+
+  <div class="section" style="margin-top:2em">
+  <h2>Accessories</h2>
+  <div class="row wrap" style="">
+    {% for item in this.children %}
+      {% if this == item %} class="active"{% endif
+        %}
+    {% if item.accessory == True %}
+      <div class="col" style="flex-basis: 23.7%">
+      <a href="{{ item|url }}"><img src="{{ item|url }}{{ item.mainimage }}">{{ item.title }}</a>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
   </div>
 {% endblock %}

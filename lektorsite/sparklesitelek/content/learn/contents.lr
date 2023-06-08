@@ -1,11 +1,11 @@
-_model: products
+_model: learn
 ---
 
-title: Products
+title: Learn
 ---
 body:
 
-This is a list of the products:
+This is a list of the prxducts:
 
 * [Discover Electronics kit](discover-electronics)
 * Product 2
