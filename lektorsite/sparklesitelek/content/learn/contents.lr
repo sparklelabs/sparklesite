@@ -1,7 +1,14 @@
-title: Learn
+_model: products
+---
+
+title: Products
 ---
 body:
 
-* Discover Electronics
-* Project 2
-* Project 3
+This is a list of the products:
+
+* [Discover Electronics kit](discover-electronics)
+* Product 2
+* Product 3
+---
+_discoverable: yes
