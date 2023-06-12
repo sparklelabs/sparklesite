@@ -1,0 +1,13 @@
+_model: gallery
+---
+title: Photos
+---
+show_attachments: yes
+---
+show_pages: yes
+---
+tags: Photos
+---
+mainimage: 4545914135_33c9e4cc7e_o.jpg
+---
+show_parent: yes

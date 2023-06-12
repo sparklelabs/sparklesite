@@ -4,8 +4,28 @@ title: Solderless Breadboard
 ---
 accessory: yes
 ---
-mainimage: ../../static/defaultimage.png
+mainimage: solderlessbreadboard_whiteled.jpg
 ---
 price: 6.99
 ---
 shopslabsnum: 19
+---
+graphics: nonono_graphic.svg
+---
+body:
+
+Easily prototype your circuits on this see-through breadboard. 
+
+830 tie points. 2.2″ x 7″ (5.5 cm x 17 cm). Removing the power strips reduces the width to 1.4″ (3.5cm). 
+
+Multiple breadboards can be snapped together. Foam tape on the bottom allows the board to be affixed to a flat surface.
+
+---
+color:
+
+Retro white
+Transparent
+---
+lessons: Solderless Breadboard
+---
+goeswith: Multimeter

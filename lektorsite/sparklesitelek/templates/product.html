@@ -21,10 +21,10 @@
 <div class="section" style="margin-bottom:6em">
 
   <span style="font-size:600%;font-weight:100">
-    {{ this.price }}
+    <sup style="font-size:47%;font-weight:400">$</sup>{{ this.price }}
   </span>
 
-  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:4em">
+  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="margin-left:2.4em">
     <INPUT NAME="item" TYPE="hidden" VALUE="{{ this.shopslabsnum }}" />
     <INPUT NAME="price" TYPE="hidden" VALUE="{{ this.price }}" />
     <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
@@ -32,14 +32,14 @@
     {% if this.size %}
     <select name="size">
       {% for item in this.size %}
-        <option value="{{ item }}">{{ item }}</option>
+      <option value="{{ item }}">{{ item }}</option>
       {% endfor %}
     </select>
     {% endif %}
     {% if this.color %}
     <select name="color">
       {% for item in this.color %}
-        <option value="{{ item }}">{{ item }}</option>
+      <option value="{{ item }}">{{ item }}</option>
       {% endfor %}
     </select>
     {% endif %}
@@ -66,17 +66,69 @@
 <div class="row" style="gap:4em;">
   <div class="col justify">
     {{ this.body }}
+    {% if this.graphics %}
+    <div class="half" style="margin-top:2em">
+      {% for item in this.graphics %}
+      <img src="/static/graphics/{{ item }}" alt="infographic">
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
   <div class="col half" style=''>
-        <div class="section">
-        {{ this.lessons }}
-        </div>
-        <div class="section">
-        {{ this.downloads }}
-        </div>
-        <div class="section">
-        {{ this.goeswith }}
-        </div>
+      {% if this.lessons %}
+    <div class="section">
+      <h3>Learn</h3>
+      {% for line in this.lessons %}
+      {% set items = site.query('/learn') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
+      {% if this.downloads %}
+    <div class="section">
+      <h3>Downloads</h3>
+      {% for line in this.downloads %}
+      {% set items = site.query('/downloads') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}{{ item.file_download }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
+      {% if this.goeswith %}
+    <div class="section">
+      <h3>Goes with</h3>
+      {% for line in this.goeswith %}
+      {% set items = site.query('/products') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
   </div>
 </div>
 {% endblock %}

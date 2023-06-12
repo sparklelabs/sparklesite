@@ -1,0 +1,9 @@
+_model: page
+---
+title: Starfish
+---
+mainimage: ../../static/defaultimage.png
+---
+tags: Projects
+---
+_discoverable: no

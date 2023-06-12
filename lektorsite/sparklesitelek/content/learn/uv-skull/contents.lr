@@ -1,5 +1,7 @@
-_model: topic
+_model: page
 ---
-title: UV Skull
+title: Blacklight Skull
 ---
 mainimage: ../../static/defaultimage.png
+---
+tags: Products

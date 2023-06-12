@@ -1,0 +1,15 @@
+_model: project
+---
+title: Sample Project
+---
+tags: Projects
+---
+show_mainimage: yes
+---
+body:
+
+*This is a sample project*
+
+It can have downloads.
+---
+downloads: Arduino Cheatsheet

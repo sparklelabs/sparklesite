@@ -9,22 +9,17 @@ multimeter.jpg
 ---
 body:
 
+This inexpensive but effective multimeter provides all the basic features for hobby electronics. The included Sparkle Labs quick start guide shows the basic features being used on a solderless breadboard. Use it both as a learning tool and to troubleshoot circuits. Battery included.
 
-**Harness the power of the electron!**
+#### This kit includes:
 
-Build and bend your own working circuits. A DIY innovation, the kit is a fun and challenging way to get acquainted with the building blocks of electronics. Just plug and play but with the same parts that engineers use!
-
-**Hours of fun** Discover Electronics kits keep hands and minds occupied for hours of amusement. Our step-by-step illustrated manual and [online video lessons](/learn/discover-electronics) easily guides you through 16 challenging projects with ease.
-
-After mastering the basics of real-world circuits with our sample projects, you can rearrange the parts to create your own gadgets again and again. With over 130 parts in the kit, the possibilities are numerous.
-
-**Bonding while building** The kits are designed for ages 10 and up. Our colorful parts are also irresistible to younger kids, who can join adults for super-charged quality time that’s both fun and educational. Adults can enjoy an afternoon of discovery while introducing DIY concepts to the little ones.
-
-**Eco-packaging** This kit was redesigned with a paper pulp tray to hold your parts and projects- no plastic boxes needed. All of Sparkle Labs’ packaging is plastic-free and uses recycled paper.
-
-**What will I learn?** Basic concepts of resistance, capacitance, voltage, and current. basic physics, problem solving skills, how to read schematics, and circuit building,
-
-Used by schools and universities to teach math, electronics, robotics and engineering.
+-   Measure Voltage
+-   Measure current
+-   Measure resistance
+-   Test conductivity
+-   Test Diodes
+-   Test transistors
+-   Quick Start Guide
 
 ---
 price: 12.00
@@ -33,15 +28,15 @@ addtocart: Add to Cart
 ---
 lessons: 
 ---
-downloads:
-
-### Downloads
-
-[![Discover Electronics Cheatsheet](/downloads/cheatsheet-0.jpg)](/downloads/discoverkit-cheatsheet.pdf)
-[Cheat sheet](/downloads/discoverkit-cheatsheet.pdf)
+downloads: Multimeter Cheatsheet
 ---
-goeswith: 
+goeswith:
+
+Discover Electronics
+Discover Arduino
 ---
-sort_key: 1
+sort_key: 
 ---
 shopslabsnum: 199
+---
+accessory: yes

@@ -1,67 +1,43 @@
-title: About this Website
+_model: gallery
+---
+title: About
 ---
 body:
 
-Markdown Examples
-============
+| | |
+|----|----|
+|🖄|<a href="mailto:website@sparklelab.com">email us</a>|
+|☏|<a href="tel:212-777-8051">(212) 777-8051</a>|
+|▢|[instagram](https://www.instagram.com/sparklelabs)|
 
-Paragraphs are separated by a blank line.
+----
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+Sparkle Labs began making approachable educational electronics kits in 2008. Used by K-12 schools, universities, artists, engineers, vocational schools, hobbyists and more, the kits have assisted thousands of children and adults in their curiosity about the creative and technical aspects of science.  
+  
+The company’s flagship kit, [_Discover Electronics_](/products/discover-electronics), was inspired by the founders’ involvement with the early issues of [_Make Magazine_](https://makezine.com/), when the pair quickly recognized a need for educational tools to get aspirational makers up and running. With an assembly line consisting of helpful friends and family, Sparkle Labs filled its initial run of electronics kits. When the couple received an order too large to fill in their Manhattan apartment, they contracted a professional manufacturer and converted the endeavor into a real business. Since then, Sparkle Labs has grown in size and mission, maintaining an organic passion for providing knowledge and sparking creativity.
 
-  * this one
-  * that one
-  * the other one
+#### Amy Parness
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+Amy Parness has been an experience designer since 1999. She started her career in technology working on some of the first large ecommerce sites and then moved into advergaming.
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+She has an undergraduate degree from Boston University in International Relations and Advertising Design. She attended the Interactive Telecommunication Program for graduate school to get away from the screen and create physical prototypes for art and design. Amy founded Sparkle Labs with Ariel in 2005 after graduating from ITP with Ariel Churi. She is always focused on finding the most environmental materials for packaging and products as well as efficient manufacturing processes. She has lived in Japan and Argentina. She speaks Spanish.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+#### Ariel Churi
 
+Born to an Argentinian mother and Indian father, Ariel is an inventor, an artist and a teacher. He has a background in printmaking and attended the oldest art school in the country, The University of the Arts in Philadelphia. He has a masters from NYU’s Interactive Telecommunication Program (ITP) where he focused on materials, prototyping and game design. He created Sparkle Labs’ branding and does all of the 3D design and illustration. He teaches several graduate and undergraduate courses at the New School of Design in both the Design + Management and Design + Technology Departments, Ariel is at the forefront of design processes and new technology. Over his 17 year career in New York City, he has worked with Faith Popcorn, Landor, Renegade, Ogilvy & Mather, Razorfish, Rapp Collins, DraftFCB, Starcom Media, Sony Ericsson, Integrative Nutrition Institute, Amazon, Wonderland and many more.
+---
+section:
 
+Projects
+Photos
+---
+sections:
 
-An h2 header
--------------
-
-Here's a numbered list:
-
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
-
+Projects
+Photos
+---
+show_attachments: no
+---
+show_pages: no
+---
+show_menu: no

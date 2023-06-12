@@ -1,3 +1,5 @@
+/* * { outline: solid 1px green } */
+
 body {
 /* font-size: calc(10px + 0.390625vw); */
 font-size: calc(7px + .8vw);
@@ -7,7 +9,7 @@ font-size: 4em;
 }
 .row {
 display:flex;
-gap: 16px;
+gap:clamp(9px, 1.3vw, 17px);
 flex-direction: column;
 margin-bottom: 1em;
 }
@@ -61,12 +63,12 @@ margin-right: 32px;
 #thumbs {
 width: 100%;
 display: flex;
-gap:17px;
+gap:clamp(9px, 1.3vw, 17px);
 }
 
 @media only screen and (min-width: 480px) {
 #thumbs {
-width: 15%;
+width: 16.25%;
 flex-direction: column;
 }
 .w90 {
@@ -88,7 +90,7 @@ flex-direction: row;
     width: 50%;
 }
 .quarter {
-width: 50%;
+width: 25%;
 }
 
 .halfimg p img {

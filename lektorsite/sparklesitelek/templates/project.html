@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="section">
+  <h2>{{ this.title }}</h2>
+  {% if this.show_mainimage == True %}
+  {% if this.file_download %}
+  <a href="{{ this.file_download }}">
+           {% endif %}
+<img id="largeImage" src="{{ this.mainimage }}">
+  {% if this.file_download %}
+  </a>
+           {% endif %}
+
+<div style="margin-bottom:2em"></div>
+{% endif %}
+  {{ this.body }}
+  </div>
+      {% if this.downloads %}
+    <div class="section quarter">
+      <h3>Downloads</h3>
+      {% for line in this.downloads %}
+      {% set items = site.query('/downloads') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}{{ item.file_download }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
+{% endblock %}

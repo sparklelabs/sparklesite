@@ -51,8 +51,10 @@ header {
 
 footer {
   width: 100%;
-  height: 24px;            /* Footer height */
-  position: relative;
+  /* height: 48px;            /\* Footer height *\/ */
+  margin-bottom: 12px;
+  /* position: relative; */
+  font-weight: 500;
 }
 
 #content-wrap {
@@ -77,14 +79,14 @@ header nav ul {
 }
 
 header nav ul li {
-      line-height: 16px;
+    line-height: 16px;
     font-weight: 400;
-    font-size: 80%;
+    /* font-size: 80%; */
     margin: 0 8px 0 0;
     padding: 0;
 }
 
-header nav ul li a {
+header a {
     text-decoration: none;
 }
 header nav ul li a:hover {
@@ -93,6 +95,15 @@ header nav ul li a:hover {
     text-decoration-color: var(--pink);
 }
 
+footer a {
+  color:var(--black);
+  text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--pink);
+}
 
 div.page {
 }
@@ -112,7 +123,7 @@ blockquote {
 }
 
 .tiny {
-    font-size: 60%;
+    font-size: 10px;
 }
 
 fourthree {
@@ -163,6 +174,7 @@ hr {
 a {
     color: var(--blue);
     text-decoration-style: dotted;
+    text-decoration-color: var(--green);
 }
 a:visited {
     /* color: var(--violet); */
@@ -198,7 +210,7 @@ a:hover {
 
 @media only screen and (min-width: 480px) {
   header nav {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
   header nav ul li {
       display: inline;

@@ -1,0 +1,30 @@
+_model: product
+---
+title: Discover Arduino
+---
+body:
+
+    Great intro to programming and electronics.
+
+Arduino is a microcontroller created for learning. It is the easiest way to learn about the computing world with thousands of learning resources available.
+
+This is the perfect starter kit for Arduino and learning electronics. Learn the basics of electronics with the Discover Electronics kit and then apply what you have learned to programming your Arduino.
+
+Everything you need to get started is in the kit- USB cable, the Discover Electronics kit that comes with 10 different colored LEDs, sensors, diodes, potentiometers, speaker and more as well as the Arduino Rev 3 that mounts on the breadboard. This bundle also comes with the Sparkle Labs’ Arduino Manual.
+
+**What will I learn?** Produce simple sequences and commands that link cause and effect using input/output devices. Use intuitive prediction tools to gain first-hand experience in forming hypotheses. And integrate math and science using physical constraints, units of measurement, coordinate systems, min, max, mean, and linear.
+
+---
+downloads: Arduino Cheatsheet
+---
+goeswith: Multimeter
+---
+graphics: nonono_graphic.svg
+---
+lessons: Discover Arduino
+---
+price: 81.99
+---
+shopslabsnum: 25
+---
+mainimage: arduino_breadboard.jpg

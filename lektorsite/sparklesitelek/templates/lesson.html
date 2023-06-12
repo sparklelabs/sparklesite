@@ -1,11 +1,25 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <div class="halfimg multiply">
-    <a href='{{ this.parent|url }}'>
+  <div class="{{ this.classes }}">
+  <a href='{{ this.parent|url }}'>
  {{ this.parent.title }}
  </a>
   <h2>{{ this.title }}</h2>
   {{ this.body }}
+
   </div>
+{% set siblings = this.get_siblings() %}
+<div class="row" style="margin-top:64px">
+  <div class="col">
+{% if siblings.prev_page %}
+  <strong>⇠</strong> <a href="{{ siblings.prev_page|url }}">{{ siblings.prev_page.title }}</a>
+{% endif %}
+</div>
+  <div class="col" style="text-align:right">
+{% if siblings.next_page %}
+  <a href="{{ siblings.next_page|url }}">{{ siblings.next_page.title }}</a> <strong>⇢</strong>
+{% endif %}
+</div>
+</div>
 {% endblock %}

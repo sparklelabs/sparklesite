@@ -1,8 +1,23 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <div class="halfimg multiply">
+  <div class="">
+  {% if this.show_parent == True %}
+  <a href='{{ this.parent|url }}'>
+ {{ this.parent.title }}
+ </a>
+{% endif %}
   <h2>{{ this.title }}</h2>
+  {% if this.show_mainimage == True %}
+  {% if this.file_download %}
+  <a href="{{ this.file_download }}">
+           {% endif %}
+<img id="largeImage" src="{{ this.mainimage }}">
+  {% if this.file_download %}
+  </a>
+           {% endif %}
+<div style="margin-bottom:2em"></div>
+{% endif %}
   {{ this.body }}
   </div>
 {% endblock %}

@@ -3,3 +3,5 @@ _model: gallery
 title: Downloads
 ---
 _discoverable: no
+---
+show_attachments: yes

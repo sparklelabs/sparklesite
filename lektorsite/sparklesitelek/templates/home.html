@@ -1,19 +1,18 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <!-- <h2>{{ this.title }}</h2> -->
+<!-- <h2>{{ this.title }}</h2> -->
 <div style="padding-top:64px">
-    <!--this could be markdown in the body field-->
-    <img id="" src="{{ this.hero }}" alt="Default Image">
+  <!--this could be markdown in the body field-->
+  <img id="" class="" src="{{ this.hero }}" alt="Default Image">
 </div>
 {{ this.body }}
-<div class="row" style="margin-top:128px;display:flex;align-items:stretch;min-height:300px">
-  <div class="col half justify" style="background-color:var(--red);border-radius:8px">
-    <!-- {{ this.leftcol }} -->
-
-    </div>
-  <div class="col half justify" style="background-color:var(--violet);border-radius:8px">
+<div class="row" style="margin-top:10vw;display:flex;align-items:stretch;min-height:300px">
+  <div class="col" style="">
+    {{ this.leftcol }}
+  </div>
+  <div class="col" style="">
     {{ this.rightcol }}
-    </div>
+  </div>
 </div>
 {% endblock %}

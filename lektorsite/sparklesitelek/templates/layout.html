@@ -22,20 +22,21 @@
       <div id="content-wrap">
         <header style="margin-top:24px;margin-bottom:24px;display:flex;justify-content:space-between;align-items:flex-end">
           <div class="" style="display:flex;align-items:flex-end">
-            <a href='http://sparklelabs.com'>
-            <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image" style="bottom:0px;max-width:38px">
+            <a href="{{ '/'|url }}">
+              <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image" style="bottom:0px;max-width:38px">
             </a>
-            <h1 style="margin:0px 0px 0px 4px;font-size:2em">Sparkle Labs</h1>
+            <a href="{{ '/'|url }}">
+              <h1 style="margin:0px 0px 0px 4px;font-size:2em;color:var(--black)">Sparkle Labs</h1>
+            </a>
           </div>
-          <nav style="padding-left:4px">
+          <nav style="padding-left:4px;display:flex;align-items:flex-end">
             <ul class=" nav navbar-nav">
-              <li{% if this._path == '/' %} class="active"{% endif
-                    %}><a href="{{ '/'|url }}">Home</a></li>
+              <li{% if this._path == '/' %} class="active"{% endif %}>
+                <!-- <a href="{{ '/'|url }}">Home</a></li> -->
               {% for href, title in [
               ['/products', 'Products'],
               ['/learn', 'Learn'],
               ['/journal', 'Journal'],
-              ['/projects', 'Projects'],
               ['/about', 'About']
               ] %}
               <li{% if this.is_child_of(href) %} class="active"{% endif
@@ -46,31 +47,37 @@
         </header>
         {% block body %}{% endblock %}
       </div>
-      <footer style="padding-top:3em">
+      <footer class="tiny" style="padding-top:3em">
         <hr>
-        <div style="display:flex;justify-content:space-between">
-          <span class="tiny">&copy; Copyright 2023 by Sparkle Labs.</span>
-          <div style="display:flex;gap:1px;max-height:8px">
-            <div style="color: var(--pink); background-color: var(--pink); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--red); background-color: var(--red); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--orange); background-color: var(--orange); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--yellow); background-color: var(--yellow); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--green); background-color: var(--green); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--blue); background-color: var(--blue); max-width:14px">
-              `
-            </div>
-            <div style="color: var(--violet); background-color: var(--violet); max-width:14px">
-              `
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+          <div>
+            <!-- 📬<a href="">email us</a>  📷<a href=""> instagram</a> ☎<a href="">(212) 777-8051</a> -->
+            <a href="">email us</a> ﹅ <a href="">instagram</a> ﹅ <a href="">(212) 777-8051</a>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <span style="">&copy; Sparkle Labs</span>
+            <div style="display:flex;gap:1px;max-height:8px">
+              <div style="color: var(--pink); background-color: var(--pink); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--red); background-color: var(--red); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--orange); background-color: var(--orange); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--yellow); background-color: var(--yellow); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--green); background-color: var(--green); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--blue); background-color: var(--blue); max-width:14px">
+                `
+              </div>
+              <div style="color: var(--violet); background-color: var(--violet); max-width:14px">
+                `
+              </div>
             </div>
           </div>
         </div>
