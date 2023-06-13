@@ -1,7 +1,11 @@
-_model: page
+_model: gallery
 ---
 title: BioTelies
 ---
 tags: Projects
 ---
-_discoverable: no
+_discoverable: yes
+---
+show_parent: yes
+---
+show_attachments: yes

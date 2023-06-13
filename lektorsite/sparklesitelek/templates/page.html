@@ -19,5 +19,24 @@
 <div style="margin-bottom:2em"></div>
 {% endif %}
   {{ this.body }}
+<div style="margin-bottom:2em"></div>
+      {% if this.goeswith %}
+    <div class="section quarter" style="margin-bottom:2em;">
+      <h3>Goes with</h3>
+      {% for line in this.goeswith %}
+      {% set items = site.query('/shop') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
   </div>
 {% endblock %}

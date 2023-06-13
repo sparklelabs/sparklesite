@@ -7,3 +7,5 @@ mainimage: skull_multichannel2.jpg
 tags: Shop
 ---
 show_mainimage: yes
+---
+goeswith: Blacklight Skull

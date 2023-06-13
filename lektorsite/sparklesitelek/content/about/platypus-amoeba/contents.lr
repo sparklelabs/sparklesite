@@ -8,4 +8,6 @@ tags: Projects
 ---
 mainimage: 4545904701_bfb31bab09_o.jpg
 ---
-_discoverable: no
+_discoverable: yes
+---
+show_parent: yes

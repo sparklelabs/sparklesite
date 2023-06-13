@@ -72,3 +72,5 @@ for i in range(10):
 _discoverable: yes
 ---
 tags: 
+---
+show_parent: yes

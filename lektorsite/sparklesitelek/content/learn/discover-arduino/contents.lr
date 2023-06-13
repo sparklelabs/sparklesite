@@ -1,4 +1,4 @@
-_model: project
+_model: page
 ---
 title: Discover Arduino
 ---
@@ -17,3 +17,8 @@ body:
 tags: Shop
 ---
 downloads: Arduino Cheatsheet
+---
+goeswith:
+
+Arduino UNO
+Discover Arduino
