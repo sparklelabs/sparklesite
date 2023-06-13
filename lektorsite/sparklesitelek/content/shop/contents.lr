@@ -1,0 +1,13 @@
+_model: shop
+---
+title: Shop
+---
+body:
+
+This is a list of the shop:
+
+* [Discover Electronics kit](discover-electronics)
+* Product 2
+* Product 3
+---
+_discoverable: yes

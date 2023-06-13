@@ -7,3 +7,5 @@ file_download: multitester_basic_color.pdf
 mainimage: multitester_basic_color.png
 ---
 show_mainimage: yes
+---
+show_parent: yes

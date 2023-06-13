@@ -7,7 +7,7 @@ Project images: BUTTON, SPAM LIFE, Biotelies, SqueezeMe and CK Mannequins
 
 # PLP: #
 
-## Images of products: ##
+## Images of shop: ##
 
 + Discover Electronics
 + Discover Arduino

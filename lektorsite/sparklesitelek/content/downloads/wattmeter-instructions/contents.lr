@@ -7,3 +7,5 @@ file_download: wattmeter-instructions.pdf
 mainimage: wattmeter-instructions.png
 ---
 show_mainimage: yes
+---
+show_parent: yes

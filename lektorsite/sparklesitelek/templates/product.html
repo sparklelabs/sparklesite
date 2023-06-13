@@ -12,7 +12,7 @@
   </div>
   <div class="col" id="thumbs">
     {% for image in this.attachments.images %}
-    <div>
+    <div style="flex:1 1 0">
       <img src="{{ image|url }}" style="object-fit:cover">
     </div>
     {% endfor %}
@@ -115,7 +115,7 @@
     <div class="section">
       <h3>Goes with</h3>
       {% for line in this.goeswith %}
-      {% set items = site.query('/products') %}
+      {% set items = site.query('/shop') %}
       {% for item in items %}
       {% if item.title == line %}
       <div style="margin-bottom:1em">

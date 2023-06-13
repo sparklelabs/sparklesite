@@ -1,11 +1,11 @@
-_model: products
+_model: shop
 ---
 
-title: Products
+title: Shop
 ---
 body:
 
-This is a list of the products:
+This is a list of the shop:
 
 * [Discover Electronics kit](discover-electronics)
 * Product 2
