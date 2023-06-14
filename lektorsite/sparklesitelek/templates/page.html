@@ -20,6 +20,25 @@
 {% endif %}
   {{ this.body }}
 <div style="margin-bottom:2em"></div>
+      {% if this.downloads %}
+    <div class="section quarter" style="margin-bottom:2em;">
+      <h3>Downloads</h3>
+      {% for line in this.downloads %}
+      {% set items = site.query('/downloads') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div style="margin-bottom:1em">
+      <a href="{{ item|url }}{{ item.file_download }}" >
+        <img src="{{ item|url }}{{ item.mainimage }}">
+        {{ item.title }}
+      </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+      {% endif %}
+<div style="margin-bottom:2em"></div>
       {% if this.goeswith %}
     <div class="section quarter" style="margin-bottom:2em;">
       <h3>Goes with</h3>

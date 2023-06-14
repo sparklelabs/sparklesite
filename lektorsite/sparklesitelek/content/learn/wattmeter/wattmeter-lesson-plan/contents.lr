@@ -1,0 +1,619 @@
+_model: page
+---
+title: Wattmeter Lesson Plan
+---
+body:
+
+# Using the Wattmeter in Lessons
+
+Adapted from *Using the Kill-A-Watt-Meter-In-the-Classroom* by the [*New Mexico Solar Energy Association*](www.nmsea.org).
+
+- [Measuring AC Electricity](#1)
+- [The Wattmeter](#2)
+- [My Electricity](#3)
+    - [Vocabulary for Students](#3-1)
+    - [Background for Teachers](#3-2)
+    - [Lesson 1: Electric Appliances and How They Work](#3-3)
+    - [Lesson 2: How Much Electricity Are We Using?](#3-4)
+- [The Electricity We Use](#4)
+    - [Lesson 1: What are we Measuring? What Units of Measurement are used?](#4-1)
+    - [Lesson 2: Classroom Measurements](#4-2)
+    - [Lesson 3: Energy Audits](#4-3)
+    - [Lesson 4: Special Topic Energy, Work and Power](#4-4)
+    - [Lesson 5: Special Topic Efficiency](#4-5)
+
+<a id="1"></a>
+## Measuring AC Electricity
+
+### Note to Teachers
+
+The following sections include lesson plans, worksheets and supplemental reading material dealing with AC electricity. AC electricity is in some ways “more complicated” than DC electricity, but on the other hand, students are already very familiar with AC electrical lights and appliances because they use them every day at home and at school. Building on this familiarity can be an effective method of introducing new and more challenging topics.
+
+The Wattmeter is inexpensive, very easy to use, and almost “foolproof”. Students really like being able to “make measurements themselves”.
+
+<a id="2"></a>
+## The Wattmeter
+
+### Supplemental Instructions
+
+#### Overview for Teachers
+
+The Wattmeter is designed to make electrical measurements using standard 3-prong 120 VAC outlets such as those found in houses, offices, and schools. When the meter is plugged into a standard 120 VAC electrical outlet, a standard 120 VAC electrical appliance can be plugged into the outlet located on the front of the meter.
+
+The meter is especially useful for monitoring and comparing how much electrical power and energy are used by different appliances. For example, you can easily display how much power is used by a LED compared to a standard incandescent lamp rated for the same light output. You can also measure how much power some appliances use even when they’re turned “OFF”.
+
+Students will learn to make simple electrical measurements; become familiar with standard measurement units used in physics and engineering, and improve their understanding of important concepts like “energy”, “power”, and “efficiency”.
+
+#### What can you measure with this meter?
+
+The Wattmeter can be used to measure the following electrical parameters:
+
+- Volts: the electrical force or “pressure” present that “forces” electrons to move thru an appliance
+- HZ: Hertz: frequency or how many times the applied voltage cycles or changes direction each second
+- Amps: Amperes - electrical current: the # of electrons moving or “flowing” through the appliance
+- Watts: the electrical power (energy per second) being used by the appliance.
+- KWH: Kilowatt Hours – the total electrical energy used by the appliance since the meter was reset
+- Hour: the total time that electrical power has been applied to the meter since the meter was reset (Note: only engineers & technicians care about the following two electrical parameters)
+- VA: the result of multiplying Volts and Amps. Different from Watts for some AC loads
+- PF: the ratio of measured Watts to VA. It will equal 1 for some AC loads, but not all. 
+
+#### Using the Meter
+
+The meter can display only one electrical measurement at a time. You can select the measurement you want by pressing the labeled key. Three of the keys have double labels. You can alternate between the two labeled measurements by pressing the same key again. The meter display will highlight the measurement that you have selected.
+
+When the meter is plugged into a standard 3-prong 120 VAC outlet it will measure Volts, frequency in Hertz, and Hours - the cumulative time in hours since electrical power was applied. The other electrical measurements will read zero (except for PF which will read 1) until a standard 120 VAC electrical appliance (load) such as a lamp or a computer or a TV is plugged into the 3-prong outlet on the front of the Wattmeter. When the KAW meter is unplugged or when electrical power to the meter is switched off, the total Hour and KWH readings will be reset to zero. Be sure to record KWH readings before unplugging the KAW meter.
+
+**Caution: The Wattmeter is no more (or less) dangerous than any other 120 VAC electrical appliance. Be careful plugging in and unplugging the meter, and plugging in and unplugging the electrical appliance. Young children should not be allowed to perform these tasks. Do not use appliances with frayed or cracked power cords or loose/unreliable power switches.**
+
+**Caution: If an appliance such as a lamp has a standard 2-prong AC plug, it can be safely plugged into the 3-prong outlet on the front of the meter. But don’t use this meter with old-style 2-prong 120 VAC wall outlets, with extension cords connected to such wall outlets, or with 2-prong to 3-prong AC adapters. The meter will function properly in these cases, but a safety hazard could be created if you then plug a 3-prong AC appliance into the meter outlet.**
+
+<a id="3"></a>
+## My Electricity
+
+**Goals:**
+
+1. Introduce the units used for electrical measurements
+2. Demonstrate electrical measurements using common appliances
+3. Teach the concept of energy efficiency
+4. Allow students to make measurements, keep records, and compare results
+5. Explore the economic and environmental considerations of energy use
+
+**Objectives:**
+
+Students will:
+
+1. Measure and graph energy output from an electrical appliance
+2. Use the terms “Watts,” “Volts,” “Amps” and “kilowatt-hours”
+3. Perform calculations using the results of their measurements
+4. Discuss the possible economic and environmental impact of our future decisions about energy use
+5. Inventory electrical use at school and at home and consider how to conserve energy
+
+<a id="3-1"></a>
+### Vocabulary for students
+
+- electricity
+- energy
+- meter
+- Volt
+- Amp
+- DC/AC
+- load
+- Watt
+- kilowatt-hour
+- force
+- current
+- power
+- incandescent
+- compact fluorescent
+- appliance
+- efficiency
+
+<a id="3-2"></a>
+### Background for Teachers
+
+**Volt** - measures the average level of voltage or “electro-motive force” that “pushes” or forces electrons to move thru a circuit. Voltage in an electrical circuit is like pressure in a plumbing system. Voltage can be supplied by a battery, or by an electrical generator. The name of this measurement unit, the Volt, was chosen to honor Alessandro Volta (1745-1827), a famous Italian scientist who invented the battery.
+
+**Amp** - measures the average level of electrical current or number of electrons being moved. Electrical current flowing in a wire is like water current flowing in a pipe or hose. The name of this measurement unit, the Ampere (Amp for short), was chosen to honor Andre Ampere (1775-1836), a famous French scientist and pioneer of electrical measurements.
+
+**DC**/AC - DC stands for Direct Current. AC stands for Alternating Current.
+
+In a DC circuit, the voltage is more or less constant. The electrical current always flows in one direction, because the voltage is always forcing or pushing the electrons in the same direction. A car uses a 12 Volt Direct Current (12 VDC) electrical system. In an AC circuit, the electrical current changes direction many times each second, because the voltage swings from positive to negative many times each second, forcing the electrons to follow. Your house and your school use a 120 Volt Alternating Current (120 VAC) electrical system. It's much easier for the power company to generate and distribute AC power than DC power.
+
+[Since the voltage and current in an AC system are constantly changing, measuring their average value is more complicated than in a DC system.]
+
+**Load or Resistance** - the appliance or lamp that you plug into the meter is the electrical load.
+
+The voltage forces electrical current to flow through the load, much like pressure forces water to flow through a pinched pipe. At a given voltage, one load may resist the flow of current more than another. Resistance in an electrical circuit is like a valve in a pipe - for a given pressure, the size of the valve opening will determine the amount of water that flows through the pipe.
+
+**Watt** - measures the amount of electrical power being used by the load. In science and engineering, one Watt of power is defined as the amount of energy that is consumed or generated in one second. Most electrical appliances and light bulbs are rated in Watts. Large electric motors are usually rated in horsepower (1 hp = 746 Watts). This measurement unit, the Watt, was chosen to honor James Watt (1736-1819), a famous English engineer (who never saw a light bulb or used electricity).
+
+**KWH** - measures the total amount of energy that has been used by the appliance since the meter was turned on. Since Watts is a measure of the amount of energy used each second, you can figure out the total energy that has been used if you know how many seconds the appliance has been turned on. A unit for keeping track of the total amount of electrical energy is the KWH (KiloWatt-Hour) which is 1000 Watt-hours. This is what the power meter on your house or school measures, and this is what the electric power company bills you for.
+
+**Equations that show the relationships in an electrical circuit **
+
+For DC electrical loads and AC loads such as light bulbs:
+
+**Power (Watts) = Force (Volts) X Current (Amps).**
+
+**Ohm's Law:** The relationship between Voltage (V), current (I), and resistance (R) is expressed by Ohm's Law : **R = V / I** ( equivalently V = I X R or I = V / R )
+
+I = V / R means that for a constant load resistance, such as that provided by an incandescent light bulb, when the voltage goes up, the current will increase causing the lamp to get brighter; and when the voltage goes down, the current will decrease causing the lamp to dim.
+
+<a id="3-3"></a>
+### Lesson 1: Electric Appliances and How They Work
+
+**Time: 45 minutes**
+
+**Materials needed:** a Wattmeter; an AC power strip; one or two small table lamps; a 60W incandescent light bulb (clear glass if possible); a 60W equivalent LED bulb; student worksheet (included here)
+
+#### Part One: Direct Teaching and Demonstrations
+
+##### A. Checking wall outlets
+
+- Show the Wattmeter and explain that it is used to make electrical measurements. Since we can’t use our 5 senses to measure electricity, we have to depend on instruments.
+
+This meter can be used to measure several different things:
+
+**Volts** - the amount of electrical force present ( or “how hard the electrons will be pushed.)
+
+**Amps** – the amount of electrical current flowing ( “how many electrons are being pushed”)
+
+**Watts** - the amount of power (energy per second) being used by the appliance.
+
+- Demonstrate how the meter can be used to check a wall outlet for voltage and frequency. It's useful to number the class wall outlets beforehand (the two sockets in an outlet are counted together).
+
+- Plug the meter into a wall outlet via a power strip or ext cord (so everyone can see).
+
+Press the Volt key and record the voltage reading. (Should be approx 120 volts)
+
+If one of the wall outlets is controlled by a wall switch, how how that works.
+
+Press the Hz key. The meter will read 60. That’s how many times a second the AC is “alternating”.
+
+Press the Amp key. There’s no current flowing. Why? (there’s no “load” to push current thru)
+
+Press the Watt key. There’s no power being used. Why? (there’s no load using energy)
+
+- Students usually enjoy checking all the classroom outlets for voltage and frequency.
+
+##### B. Checking an appliance
+
+- Demonstrate how the meter can be used to monitor an appliance. Use a table lamp with a standard incandescent bulb, then use a high wattage appliance like a hair dryer or heater.
+
+1. Show the wattage rating marked on the bulb, then install the bulb in the lamp.
+2. Plug the lamp cord into the outlet on the front of the meter.
+3. Turn on the lamp.
+4. Record the readings for Volts, Amps & Watts. Do the Watt reading & bulb rating agree?
+5. Teach the equation Power (Watts) = Force (Volts) X Current (Amps), and put in the recorded values. Is the statement true? (If it does not work out exactly, discuss why. (the meter is accurate but not perfect; the light bulb is close to its rating but not perfect; the voltage in the room may be a bit higher or lower than the lamp’s power measured at 120VAC)
+6. Turn off the lamp switch. Record the readings again. What is different?
+7. If you have access to a 3-way lamp and bulb, use that to demonstrate the 3 different current and wattage readings corresponding to the 3 different brightness levels.
+8. Unplug the lamp and plug in the higher wattage load (hair dryer or space heater).
+9. Record the Volt, Amp & Watt readings.
+10. The meter can also be used to record kiloWatt-hours or 1000 Watt-hours (power X time = the total energy used)
+11. Select the KWH measurement. At first, it will be zero.
+12. Watch the KWH reading as it increases. [note: the meter resolution is 1/100 KWH or 10 Watt-Hours. It won't change from 0.00 to 0.01 until you've used 1 KW (1000 W) for 1/100 of an hour (36 seconds) or 1/10 KW (100W) for 1/10 of an hour (6 min), so give it a little time]. What happens when you turn the heater (but not the meter) off - then back on? What is the KWH reading measuring or adding up? Note: when the meter is unplugged, the KWH reading is lost.
+
+#### Part Two: Teamwork
+
+- Divide the class into teams of 3 or 4 students. Each team will have a chance to come up and use the kill-a-watt meter to compare incandescent and compact fluorescent light bulbs. Teams not using the meter will be working together on a worksheet that addresses science performance standards for their grade level.
+
+- Give necessary instruction to get the teams working on the worksheet (see worksheet choices below.) Then call one team at a time and teach the following mini-lesson:
+
+##### Comparing light bulbs
+
+Demonstrate the difference between a 60-Watt incandescent bulb and an LED bulb rated for the same light output (60 Watt equivalent).
+1. Team installs the 60 Watt incandescent bulb, turns on the lamp, and records the Volts, Amps and Watts.
+2. Teacher; point out how hot the bulb is, and the glowing white-hot filament inside the bulb.
+    Teach the vocabulary word incandescent: “glowing with heat ; glowing white hot”
+    Note that each student is also hot enough to glow – they are “radiating” infra-red light!
+    We can’t see infra-red light, but rattlesnakes and IR cameras can.
+3. Turn off the lamp and carefully remove the incandescent bulb (or switch lamps).
+4. Team: Install the LED bulb, turn on the lamp, and record the Volts, Amps and Watts.
+5. Teacher: Point out how relatively cool the LED bulb is (i.e. it's warm but not hot)
+6. Teacher: Discuss and compare the measurements. Send the team back to their seats with their measurements, which they will then use on their worksheets. If you want, select one student to stay behind and teach the next team how to take measurements from the light bulbs.
+
+#### Part Three: Whole-Class Discussion
+
+- Teacher asks class to share findings.
+- Teacher generates class discussion by posing the question: Why does the LED bulb use less power to produce the same amount of light? How can that be?
+- Teacher brings out the following points:
+    - an incandescent bulb uses more than 90% of its power to produce heat, and less than 10% to produce light. So for every dollar that you spend to operate incandescent light bulbs, more than 90 cents is wasted generating heat.
+    - LED bulbs are far more efficient i.e. they produce the same amount of light but much less heat. When light is what you want, heat is a sign of wasted energy.
+    - LED lamps cost more to buy at first, but they save $ on electricity and they last longer, so you will end up saving money. (And since less electricity is needed, less coal needs to be burned so less pollution is generated & less water is used)
+    - People do what they are used to doing, and today’s adults grew up with incandescent bulbs. Many still don’t know that the LED is a better bulb. Young people have to educate them.
+- Teacher reviews team worksheet with class and gives answers.
+
+#### Part Four: Homework
+
+- List ALL the electrical appliances in your home. Be a detective - do a room to room search.
+- Find (with an adult’s help) your home’s electric meter. Where is it?
+- Ask the adults in your home if they know about, and use, compact fluorescent light bulbs.
+- (optional) Bring in, with parent permission, one small electric appliance for tomorrow’s lesson.
+
+<a id="3-4"></a>
+### Lesson 2: How Much Electricity Are We Using?
+
+**Time: 45 minutes**
+
+**Materials needed:** a Wattmeter; an AC power strip; an assortment of electric appliances brought in by students; a couple of extra appliances for groups that didn’t bring in anything; a copy of an electric bill; one or two small table lamps; student worksheets
+
+#### Part One: Measuring Household Appliances
+
+- Teacher asks for students to bring out their appliances. Makes a chart on board as follows:
+
+| Appliance Watts marked | Watts measured | Volts measured | Amps measured |
+|------------------------|----------------|----------------|---------------|
+|                        |                |                |               |
+
+- Writes names of all the appliances in the first column. Explains that the teams will take turns measuring the output of the appliances they brought in, and filling out those rows of the class chart. Meanwhile, teams will work together to complete a worksheet about electrical use. (see below.)
+- Teacher calls up one group at a time and has them do the measurements for their appliance(s) and fill in the information on the board.
+
+#### Part Two: Class Discussion
+
+- When chart is complete, teacher asks teams to use it to complete their worksheets. Then leads class discussion, going through the team worksheet, and raising the following points:
+    - What do we notice here?
+    - Which appliances get the most use? Which get the least?
+    - Which use the most power? Which use the least?
+    - A low-power appliance that’s on constantly can use more total electrical energy than a highpower appliance that’s only used in short bursts. (in the problem on the 5th grade worksheet, the 100 Watt light bulb on for 10 hours uses 1KWh of electricity, and the 1500 Watt toaster oven uses only 0.75 KWh)
+    - If we want to save energy in our homes, what steps could we take?
+
+#### Part Three: Electric Meters and Utility Bills
+
+- Teacher introduces the concept of an electric meter and asks who was able to find the one in their home. Explains that the meter records the TOTAL amount of electrical energy use in a home or business (in KWH) and that this is what we are charged for.
+- Passes out the PNM bill and shows how to read it.
+- If possible:
+    1. provide a school electric bill (discuss why it’s so high)
+    2. take a tour of the school electric meter(s).
+        Show the students the school's electrical energy meter(s).
+        Point out the moving disk
+        This disk is actually the moving part of a very accurately calibrated electric motor that turns the meter dials. The speed that the disk rotates is proportional to the total electrical energy flowing through the meter and being used in the school. When, during a typical day, would the disk rotate the fastest? the slowest?
+
+**Homework:** Come up with a list of possible ways to save electrical energy in your home. Propose this plan to your family. Ask if you may see a copy of the family utility bill. If you implement your plan, review the next several bills to see what energy and cost savings your family has achieved.
+
+<a id="4"></a>
+## The Electricity We Use
+
+**Lesson Plan Themes Using the Wattmeter**
+
+**Subject(s):** Science/Physics, Math, History of Science, Economics, Conservation of Resources
+
+**Overview**: These lesson themes will introduce students to important units of measurement used in physics and engineering, show students how to actually make electrical measurements, allow them to make their own measurements, and enable them to conduct energy audits in their school and at home.
+
+**Goals**:
+
+1. Introduce the units used for electrical measurements
+2. Demonstrate electrical measurements using common appliances
+3. Compare measurements for different appliances & applications
+4. Perform calculations using measurement results
+5. Introduce/Review concepts such as “work”, “energy”, “power”, “efficiency”
+6. Allow students to make measurements, keep records, and compare results
+7. Explore the economic and environmental considerations of energy use
+
+**Objectives**:
+Students will:
+1. Improve their understanding of electrical measurement units
+2. Learn something about the history of science
+3. Learn to safely perform electrical measurements
+4. Perform calculations using the results of their measurements
+5. Explore the concepts of energy and energy conversion
+6. Be able to use the terms “energy”, “work”, and “power” correctly
+7. Explore the concept of “energy efficiency”
+8. Perform electrical energy audits at their school
+9. Discuss the possible economic and environmental impact of our future decisions
+about energy use
+
+**Materials/Resources:** a “Kill-A-Watt” Power Meter; an AC power strip; one or two small table lamps; a 60W incandescent light bulb (clear glass if possible); a “60W equivalent” LED bulb; other common electrical appliances such as a “three-way” lamp and bulb, space heater, hair dryer, iron, small TV, etc; a household electric bill; access to the school’s electrical power meter(s).
+
+**Activities and Procedures:** The following sections contain much more information than can be presented in one class period. Please adapt this content as you see fit to meet the needs of your students.
+
+<a id="4-1"></a>
+### Lesson 1: What are we Measuring? What Units of Measurement are used?
+
+**Volt** - measures the average level of voltage or EMF (electro-motive force) present. Voltage in an electrical circuit is like pressure in a plumbing system. Voltage can be supplied by a battery, or by an electrical generator. The name of this measurement unit, the Volt, was chosen to honor Alessandro Volta (1745-1827), the Italian scientist who invented the battery.
+
+**Amp** - measures the average level of electrical current or flow of electrons present.
+
+Electrical current flowing in a wire is like water current flowing in a pipe or hose. The name of this measurement unit, the Ampere (Amp for short), was chosen to honor Andre Ampere (17751836), a famous French scientist and pioneer of electrical measurements.
+
+**DC/AC** - DC stands for Direct Current. AC stands for Alternating Current.
+
+In a DC circuit, the voltage is more or less constant. The electrical current always flows in one direction, because the voltage is always “forcing or pushing” the electrons in the same direction. A car uses a 12 Volt Direct Current (12 VDC) electrical system.
+
+In an AC circuit, the electrical current changes direction many times each second, because the voltage swings from positive to negative many times each second, “forcing” the electrons to follow. Your house and your school use a 120 Volt Alternating Current (120 VAC) electrical system. It’s much easier for the power company to generate and distribute AC power than DC power.
+
+[Since the voltage and current in an AC system are constantly changing, measuring their “average” value is more complicated than in a DC system.
+
+**Hertz (Hz)** – measures the frequency (how many times per second) that the voltage swings back and forth in an AC electrical system. In the US, 60 Hz is the standard. The power company controls this frequency extremely closely. The old measurement unit was “cycles per second”, but it was changed to “Hertz” in honor of Heinrich Hertz (1857-1894), a famous German scientist.
+
+**Load or Resistance** – the appliance or lamp that you plug into the meter is the electrical “load”. The voltage forces electrical current to flow through the load, much like pressure forces water to flow through a pipe. At a given voltage, one load may “resist” the flow of current more than another. Resistance in an electrical circuit is like a valve in a pipe – for a given pressure, the size of the valve opening will determine the amount of water that flows thru the pipe.
+
+The unit of measurement of resistance is the Ohm, which was chosen to honor Georg Ohm (1789-1854), a German physicist. The Wattmeter doesn’t measure resistance (Ohms) directly, but you can calculate it by using Ohm’s Law. Ohm’s Law - The relationship between Voltage (V), current (I), and resistance (R) can be expressed in a simple equation called Ohm’s Law : <code>R = V / I (also I=V / R and V = I X R)</code>
+
+I =V/R means that for a constant load resistance, such as that provided by an incandescent light bulb, when the voltage goes up, the current will increase (causing the lamp to get brighter); and when the voltage goes down, the current will decrease (causing the lamp to dim).
+
+[note: in science and engineering, I is often used to represent electrical current in equations, but A or Amps is usually used for measurements – this is done just to confuse everybody else.]
+
+**Watt** - measures the amount of electrical power being used by the load. In science and engineering, one Watt of power is defined as the amount of energy that is consumed or generated in one second. Most electrical appliances and light bulbs are rated in Watts. Large electric motors are usually rated in horsepower (1 hp = 746 Watts). For electrical loads such as light bulbs, Watts = Volts X Amps. This measurement unit, the Watt, was chosen to honor James Watt (1736-1819), a famous English engineer (who never saw a light bulb).
+
+**KWH** – measures the total amount of energy that has been used by the appliance since the meter was turned on. Since Watts is a measure of the amount of energy used each second, you can figure out the total energy that has been used if you know how many seconds the appliance has been turned on. A more convenient unit than Watts times seconds (Wattseconds) for keeping track of the total amount of electrical energy is the KWH ( Kilo-Watt-hour). This is what the “power” meter on your house or school measures, and this is what the electric “power” company bills you for.
+
+<a id="4-2"></a>
+### Lesson 2: Classroom Measurements
+
+1. Checking wall outlets
+    Demonstrate how the meter can be used to check a wall outlet for voltage and frequency. It’s useful to number the class wall outlets beforehand (both sockets in each outlet are the same).
+    1. Plug the meter into a wall outlet via a power strip or 3 prong ext cord, so everyone can see.
+    2. Press the Volt key and record the voltage reading
+    3. Press the Hz key so the display highlights Hz, and record the frequency.
+    4. If one of the wall outlets is controlled by a wall switch, show how that works.
+    5. Let a team check and record the readings for each wall outlet (just using the meter).
+2. Checking an appliance
+    Demonstrate how the meter can be used to monitor an appliance. Use a table lamp with a standard incandescent bulb, then use a high wattage appliance like a hair dryer or heater.
+    1. Show the wattage rating marked on the bulb, then install the bulb in the lamp.
+    2. Plug the lamp cord into the outlet on the front of the meter.
+    3. Turn on the lamp.
+    4. Record the readings for Volts, Amps & Watts. Do the Watt reading & bulb rating agree?
+    5. Turn off the lamp switch. Record the readings again. What is different?
+    6. If you have access to a 3-way lamp and bulb, use that to demonstrate the 3 different current and wattage readings corresponding to the 3 different brightness levels.
+    7. Unplug the lamp and plug in the higher wattage load (hair dryer or space heater).
+    8. Record the Volt, Amp & Watt readings. Select the KWH measurement. It will be zero.
+    9. Watch the KWH reading as it increases. [note: the meter resolution is 1/100 KWH or 10 Watt-Hours. It won’t change from 0.00 to 0.01 until you’ve used 1 KW (1000 W) for 1/100 of an hour (36 seconds) or 1/10 KW (100W) for 1/10 of an hour (6 min), so give it a little time].
+        What happens when you turn the heater (but not the meter) off - then back on? What is the KWH reading measuring or adding up? Note: when the meter is unplugged, KWH is reset to 0.
+3. Comparing light bulbs
+    Demonstrate the difference between a 60-Watt incandescent bulb and an LED rated for the same light output (60 Watt equivalent).
+    1. Install the 60 Watt incan bulb, turn on the lamp, and record the Volts, Amps and Watts.
+    2. Point out how hot the bulb is. Point out the “white hot” filament inside the (clear) bulb.
+    3. Turn off the lamp and carefully remove the incandescent bulb (or switch lamps).
+    4. Install the LED bulb, turn on the lamp, and record the Volts, Amps and Watts.
+    5. Point out how relatively cool the LED bulb is (i.e. it’s warm but not hot)
+    6. Compare the measurements.
+    7. Point out that an incandescent bulb uses more than 90% of its power to produce heat, and less than 10% to produce light. So for every dollar that you spend to operate incandescent bulbs, more than 90 cents is “wasted”. LED bulbs are far more efficient – i.e. they produce the same amount of light but much less heat. When light is what you want, heat is a sign of wasted energy.
+    8. Point out that LED lamps cost more to buy at first, but they save $ on electricity and they last longer, so you will end up saving money. (And since less electricity is needed, less coal needs to be burned so less pollution is generated & less water is used)
+4. Phantom Power - Searching for “Energy Vampires”
+    Demonstrate an appliance that consumes power even when it’s “OFF”. Almost all newer (“instant on”) TVs qualify, as does any device that uses a remote control, and most battery and cell phone chargers.
+    1. Plug in the TV or “suspect” appliance and turn it on. Record the Volts, Amps & Watts.
+    2. Turn the TV or appliance off, using its normal on/off switch (battery and cell phone chargers don’t even have on/off switches.
+    3. Record the Volts, Amps, and Watts now. The Watt reading is the Phantom power.
+    4. Point out that about 15% of US electrical energy is used by Energy Vampires. The easiest way to “defeat” an energy vampire is to unplug it when it’s not being used, or plug it into a power strip that you can easily switch off (really off, that is).
+
+### Questions for Lesson 1 & 2
+
+Your old TV requires 120 VAC 60 Hz power. What does that mean?
+
+Can you use the Wattmeter to make sure a wall outlet will work with this TV? What two measurements do you need to make?
+
+(yes) (Volt & Hz)
+
+In England, most of Europe, and much of the rest of the world, the electrical systems supply 230 VAC 50 Hz power. What’s different?
+
+What would happen to your old TV if you plugged it into an English wall outlet?
+(smoke!)
+(many newer TVs and other appliances are designed to operate on both systems)
+
+Can you see Volts or Amps? Feel them? Hear them? Smell them?
+(no) (no) (no) (no)
+
+(you can see the “flash” of the spark caused by the electric current exciting air molecules)
+
+(you can feel the reaction of your nerves to electric current (a shock), and you can feel the pain from a burn caused by the heat generated by an electric current flowing thru your body)
+
+(you can hear a 60 Hz hum caused by old florescent light fixtures and transformers vibrating)
+
+(you can smell the ozone created by an electric arc or spark – like lightning for example)
+
+If the Spaniard, Miguel Besoa, had invented the battery, instead of the Italian, Alessandro Volta, what would the unit of electrical pressure or EMF (Electro-Motive-Force) be called? ( the Beso)
+
+Can a 9 Volt battery give you a shock? (no, 9 Volts can’t “force” enough current thru you) Can a 120 Volt wall socket give you a shock?
+(yes! At worst – fatal!)
+
+Can a 230 Volt wall socket give you a shock?
+(you won’t remember a thing!)
+
+How many Watts are in a kilo-Watt?
+
+a mega-Watt?
+
+(1 thousand) (1 million)
+
+Before Thomas Edison’s 1879 incandescent light bulb revolutionized lighting, what were ways to generate light at night?
+(whale oil or kerosene lamps – light bulbs helped to save the whales)
+
+What does “incandescent” mean?
+
+(“glowing with intense heat” – “white hot”)
+
+If the Wattmeter is displaying 0 Amps, even though you have plugged in a table lamp, what could be the reason?
+
+(bulb burned out)
+(lamp sw off)
+
+If you monitor a toaster oven with the meter, and you record 120 Volts and 10 Amps, what is the oven’s resistance. (hint: use Ohm’s Law) (12 Ohms)
+
+If you wanted to double-check the oven’s power consumption, how could you calculate it? (hint: power is measured in Watts)
+
+(W = V X A)
+
+The new electric SUV comes with your choice of a 150 HP or a 200 HP electric motor.
+
+If all else is equal:
+
+Which one is more powerful?
+(200HP)
+
+Which one can go from 0 to 60 in the least amount of time?
+(200 HP)
+
+Which one can pull a trailer up a steep hill faster?
+(200 HP)
+
+Which one can cruise on the highway at 50 mph?
+(both)
+
+At full power which one will go farther on a battery charge?
+(150 HP)
+
+Brittany’s Super-Blaster hair dryer is rated at 1492 Watts.
+
+How many horsepower is that? Could she just use horses instead?
+
+If she uses it for 1 hour each day, how much electrical energy
+
+in Watt-hours will she use in an average month (30 days)?
+
+How many KWH is that, rounded up?
+
+At 9 cents per KWH, what will PNM charge her for the electricity?
+
+(2) (if she rides fast)
+(44,760)
+(45)
+($4.05)
+19
+
+<a id="4-3"></a>
+### Lesson 3: Energy Audits
+
+1. Classroom and School Audits
+    Use the Wattmeter to document energy usage in your school:
+    1. Form an “Audit Team” to measure and record the electrical energy usage for each appliance (computer, electric pencil sharpener, portable fan etc) in your classroom.
+    2. Have them identify any energy vampires, as well as lights and computers that are left on when they should be off. Have them ask the maintenance staff about the wattage rating of the overhead fluorescent lights and the type of electrical “ballasts” (special transformers) that they use. Ask to see a ballast. Newer “high efficiency” bulbs & ballasts can save lots of watts.
+    3. Have the team report their findings to the class.
+    4. Team up with other classrooms to repeat this exercise. Audit the principal’s office too!
+    5. What is the monthly school electricity bill? If you could save 10%, how much is that?
+    6. Are there better uses for that money? Discuss why the meter is named the “Kill-A-Watt”.
+    7. Ask the teams to come up with energy saving recommendations for the school.
+2. Home Audits (for responsible older students only)
+    1. Assign student “projects” to use the Wattmeter to carry out energy audits at home.
+    Let them measure and record the energy usage for the standard 120 VAC appliances that they use at home. They can simply note the wattage rating of lamp bulbs instead of measuring each lamp.
+    **Note**: Some appliances such as refrigerators are “ON” all the time, but automatically cycle thru high power and low power periods. Students can measure the power (Watts) used during each of these periods if they are methodical (i.e. door closed, door open; compressor on, compressor off; automatic defrost running/not running etc). The same applies to washing machines, countertop microwave ovens, and electric space heaters.
+    2. If possible, have each student use the Wattmeter to measure the total energy in KWHs used by their home refrigerator during one full day (24 hours) - read before unplugging!
+3. Comparing Appliances - Conserving Electrical Energy
+    1. Have the students compare the Watt readings for the appliances in their homes. Some appliances use much less electrical energy than others to do the same amount of work. This is especially true of light bulbs (as we have already seen), refrigerators, dish washers, air conditioners, and washing machines. “Energy Star” rated appliances usually win this contest.
+    A list of typical wattage ratings for different appliances (there can be large variations) is included below.
+    2. Remind the students that the wattage reading measures how much electrical energy the appliance is using each second, that is, the rate at which electrical energy is being used. So how much total electrical energy does each appliance use in one month? The total depends on how much time the appliance is turned on. Refrigerators, for example, can use lots of energy because they’re on 24 hours every day (although the compressor motor cycles on/off).
+    3. Ask the students to list the appliances that are on all the time, only at night, only for a few hours each day, and only once in a while. Have them estimate the KWH used by some of these appliances in one month - for example:
+        1. a 4000 Watt clothes dryer used for 2 hours twice a week
+        2. a 250 Watt flood light used every night
+        3. a 2500 Watt electric range oven used for 4 hours every Sunday
+        4. their home refrigerator, based on the 1 day KWH measurements they made.
+4. Other Electrical Energy Meters
+    The school, as well as each house (and each apartment in many cases), has an individual electric power meter (actually an electric energy meter). It is quite different than the Wattmeter, but it measures KWH very accurately.
+    1. Use the Wattmeter and a high wattage appliance (like a hair dryer or a space heater) to demonstrate how the meter KWH reading keeps track of the total electrical energy used. (the KWH reading will change faster the higher the appliance wattage)
+        1. record the beginning period KWH reading
+        2. record the end period KWH reading
+        3. calculate the total KWHs used
+        4. Show how the meter will do this automatically if you reset the KWH reading to zero (by cycling the power to the meter) before you begin the period.
+    2. Show the students the school’s electrical energy meter(s). Point out the moving disk. This disk is actually the moving part of a very accurately calibrated electric motor that turns the meter dials. The speed that the disk rotates is proportional to the total electrical energy flowing through the meter and being used in the school. When, during a typical day, would the disk rotate the fastest? – the slowest?
+    3. Show them how to read the meter dials: (it’s harder than it looks!)
+        To read the electric meter, refer to the four, or in some cases, five dials on the meter. Go across the dials from left to right and write down the lowest number that the hand of each dial has passed. Note that some of the dials move clockwise, and some move counter-clockwise. The dials on the electric meter below indicate a reading of 5, 7, 3, 8.
+    4. Show them a home electric bill and have them find:
+        1. the beginning period reading
+        2. the end period reading
+        3. the KWH used (i.e. the difference in readings)
+        4. the rate that the electric company charges for each KWH
+        5. the cost of the KWHs used
+    5. Have each student find their home energy meter and sketch a picture of it.
+    6. Have them describe the motion of the disk that rotates when electrical energy is being used. What happens to the disk when they turn on an electric heater, electric stove, or lots of lights? What happens when they turn those appliance(s) back off?
+    7. Have them record the dial reading and the date & time
+    8. Have them record the dial reading and the date & time exactly 1 day (24 hours) later.
+    9. Have them calculate the KWH that were used during that period.
+    10. Have them calculate the cost of that energy, using the rate from the electric bill.
+
+| Appliance               | Wattage              |
+|-------------------------|----------------------|
+| clothes dryer           | 4000 (4kW)           |
+| electric blanket        | 200                  |
+| hair dryer              | 1000 (1kW) or more!  |
+| household lighting      | 40, 60, 75, 100, 150 |
+| microwave oven          | 1000 (1kW)           |
+| PC with CRT screen      | 250                  |
+| PC with LCD screen      | 75                   |
+| electric range (baking) | 2500 (2.5kW)         |
+| 27” color TV            | 300                  |
+
+<a id="4-4"></a>
+### Lesson 4: Special Topic Energy, Work and Power
+
+Understanding the relationship between energy, work and power can be confusing, because we often see these terms used in ways that can be misleading. Scientists and engineers have very specific definitions for these important concepts.
+
+Energy is a fundamental property of the physical universe. Energy can be defined as “the ability to do work”. Work in this sense is anything and everything that happens anywhere in the universe. To a physicist, even “play” is work. Energy is needed in order for any work to be done. Work is the result of the application of energy.
+
+There are 7 basic forms of energy :
+
+**thermal** – associated with heat
+
+**kinetic** – associated with the motion of objects
+
+**potential** – associated with the force of gravity and with electrical (+ -) attraction
+
+**chemical** – associated with the properties of combinations of atoms & molecules
+
+**electrical** – associated with the movement of electrons
+
+**electromagnetic** – associated with light & radio “waves” and similar forms of (nonradioactive) radiation and electric / magnetic fields.
+
+**nuclear** – associated with the forces which hold atoms together
+
+#### Conservation of Energy
+
+One of the most important principles in physics is known as the “Conservation of Energy”. It states that “energy may be changed or transformed from one form of energy to another, but it cannot be created or destroyed”. In other words, the total amount of energy in the universe is constant. This sounds a bit like science fiction, but it’s not! We are surrounded by examples of energy being changed or “transformed” from one of the 7 forms listed above to another.
+
+For example:
+
+An electric heater changes electrical energy into thermal (heat) energy. A light bulb changes electrical energy into thermal and electromagnetic (light) energy. Your car changes the chemical energy in gasoline into thermal energy (heat) and kinetic energy (motion and sound) and chemical energy (pollution). Your body changes food (chemical energy) into heat (thermal energy), movement (kinetic energy), new cells (chemical energy), and nerve impulses (electrical and chemical energy).
+
+In physics and engineering, the terms “energy” and “work” are so closely related that they can often be substituted for one another. For example, the potential energy of the water being stored behind a dam is the total amount of work (for better or for worse) that could be done if that water was released. And the kinetic energy of a fast moving soccer ball is the total amount of work (or damage) that the soccer ball could do if it delivered all of its energy to your nose.
+
+In science & engineering, “power” is a measure of how fast work is being done, i.e. the rate at which work is being done. The most common units for measuring power are the “Watt”, the “kilo-Watt” and the “horsepower”. The “horsepower” was adopted in England in the 1700s as a measure of how much work an “average” horse could do in a short time. This was useful in comparing horses to those “new fangled” steam engines. The “Watt” was named in honor of the English engineer James Watt. And what was James Watt famous for? He was the “father” (in 1769) of the modern steam engine. There were no electric power plants, light bulbs or electric motors in his day. The steam engine replaced human power and horse power with coal power, setting off the “industrial revolution”.
+
+Both the Watt and the horsepower are used to measure the amount of work (or equivalently, the amount of energy) used or generated each second. So if you want to know the total amount of work (or the total amount of energy) a 4 hp ( 2984 Watt) steam engine did yesterday, you have to know how many seconds (or hours) the engine was running. These days the most common unit for measuring electrical energy, i.e. the total amount of work (or energy) used or generated, is the KWH (kilowatt-hour), ie average kilowatts times hours.
+
+Just remember that Energy (or Work) = Power X Time. When you get a job, you will use some of your energy to do work. And (in a perfect world) the amount of work that you do will be proportional to the amount of energy that you use to do it, and you will be paid fairly in return for your work (energy). You will be trading your energy for money. You will be paid at a specified rate or wage, in $ per hour, for your work (energy). Your “earning power” will be your wage rate in $ per hour. So how much work will you do, and (equivalently) how much money will you earn? Your total pay will be your “earning power” or pay rate in $ per hour times the total hours that you work.
+
+You buy electrical energy so that you can “employ it” to do useful work. Your electric appliances convert electrical energy into one (or several) other forms of energy in the process of working for you. And you pay for that work (energy) based on how much electrical power your appliance “workers” use times how many hours they work, i.e. the total electrical energy they use in KWH. Then the electric company calculates your bill by multiplying your total energy use in KWH times the amount that they charge for each KWH.
+
+The electric company doesn’t know (or care) what sort of work you are using this electrical energy to do. The electric meter on your house or school doesn’t record the electric power in Watts or kilowatts that your appliances are using at any given time. The meter measures and records the total amount of electrical energy in kilowatts times hours (KWH) that have been used. So what some people call their “electric power meter” is actually their “electrical energy meter” because it keeps track of electrical energy (KWH), not electrical power (KW). And what some people call their “electric power company” is actually their “electrical energy company” because it generates and supplies (and bills them for) the total amount of electrical energy in KWH that they use each month.
+
+<a id="4-5"></a>
+### Lesson 5: Special Topic Efficiency
+
+Energy efficiency is in the news a lot these days. Most people understand that some appliances and machines are more energy efficient than others; and that energy efficiency is, in general, a good thing. The term “efficient” is commonly used to describe people, business practices, and even teaching methods. Scientists and engineers, however, define efficiency in a very specific way, having to do with energy conversion.
+
+The basic forms of energy that were listed earlier (thermal, kinetic, potential, chemical, electrical, electro-magnetic and nuclear) have all been harnessed by engineers to do useful work. In almost every application, energy has to be converted or transformed from one form to another in the process of doing a specific type of work. There are always many different ways to “employ” energy to perform a given task. One of the methods that engineers use to compare one way of doing something to another way is to measure the energy efficiency of each approach. A more efficient approach will produce more useful work (energy) output for the same amount of work (energy) input, or equivalently, it will produce the same useful work (energy) output with less work (energy) input.
+
+So energy efficiency can be defined as: Efficiency =
+
+- useful work (energy) output
+- total work (energy) input
+
+This definition is not complicated, but caution is advised. “Useful” work output can mean different things in different applications, and “total” work input can be interpreted creatively in some cases. Also, this definition of efficiency doesn’t usually consider the short-term or the long-term costs or benefits of each approach.
+
+When we use the Wattmeter to compare the efficiency of incandescent and LED light bulbs, we have to identify what “useful” means, and we have to choose the bulbs carefully. Since light is our “useful” output, we compare the electrical energy used per second (Watts) by an incandescent bulb and by a LED bulb rated for the same level of light output. So we are using the second interpretation of the efficiency formula. And the result is that the incandescent bulb requires over 6 times more input energy than the LED bulb to produce the same amount of light output. So the LED bulb is more than 4X more efficient than the incandescent bulb.
+
+But we didn’t really measure the “efficiency” of either bulb, we just compared efficiencies. The Wattmeter can measure the electrical energy input being used by an appliance, but it can’t measure the “useful work output”. That’s OK, because our job is to identify the best appliance choice based on comparing each appliance’s energy efficiency.
+
+Based on careful measurements of light output, we know that a typical incandescent light bulb has an efficiency of only 10% at best. So a 100 Watt incandescent bulb devotes 10 Watts to producing light (the useful output) and 90 Watts to producing heat (a wasteful output). On the other hand, some people may use a light bulb to supply heat (to a dog house for example). In that case, heat is the useful energy output, and light is the wasteful output. The “light” bulb is then 90% efficient.
+
+The electric company converts coal (chemical energy – actually stored solar energy) into heat (thermal energy) to turn water into steam (thermal & chemical energy) to turn turbine blades (kinetic energy) which rotate generators (kinetic and electro-magnetic energy) which generate electricity (electrical energy). Then they send the electrical energy to you through their electrical transmission network or “power lines” (actually “energy lines”). The efficiency of each step in this process can be measured.
+
+The overall efficiency of a typical coal fired generating plant beginning with digging the primary energy source, coal, and ending with delivering electricity to your house is typically about 30%. When you use that 30% efficient electricity to operate a 10% efficient incandescent light bulb, the overall energy efficiency is only 3% (0.30 X 0.10 = 0.03).
+
+Can we really afford to throw away 97% of our energy inheritance? Each time that energy is converted from one form to another, some of the energy will be “wasted” or converted into a form that is not “useful” for that application. Note that the energy isn’t “lost” or “destroyed” (remember the “conservation of energy” principle), it’s just changed into a form that isn’t useful in that particular application. Heat is the most common result of wasted energy (although heat is extremely useful in many applications).
+
+In some cases that “wasted” energy can have serious negative long-term consequences. For example, inefficient coal fired electric generation plants generate valuable electricity, but they also “generate” and release enormous amounts of waste heat and carbon dioxide (a greenhouse gas) and significant amounts of sulfur dioxide (acid rain) and nitrogen oxides (air pollution) and mercury (highly poisonous) into our atmosphere.
+
+Our love for extremely inefficient automobiles and trucks (the “oil well to wheel” energy efficiency of a typical car is only about 12%) requires us to import large quantities of expensive foreign crude oil, give auto and oil companies huge subsidies and tax breaks, and send our money and our troops overseas. These vehicles also “generate” massive amounts of greenhouse gases, and they pollute the air we breathe. Many of these “hidden costs” are not included in the price we pay for a gallon of gasoline.
+
+Nuclear power plants would seem to be very desirable and efficient, generating low amounts of greenhouse gases and air pollutants – and in many respects they are, especially when compared to traditional coal fired power plants. But remember that you have to include their small but potentially catastrophic risks, extremely toxic radioactive waste, and massive government subsidies in the overall cost/benefit calculations.
+
+When energy was cheap and relatively harmless, energy efficiency was not very important. But those days are over. Improving energy efficiency may be the easiest and most cost effective way to increase our supply of energy. If we can “save” megawatts by using more efficient appliances, then those megawatts don’t need to be generated, and the electric bills and greenhouse gases and pollution that would have been created can be avoided. If we “save” gasoline by switching to much more fuel efficient vehicles, then fewer barrels of oil need to be imported, and the gasoline bills and greenhouse gases and pollution that would have been created can be avoided.
+
+Kilowatts and megawatts (and even terawatts – billions of Watts) are used to describe the size and generating capacity of electrical power plants, as well as when we estimate our growing future demand for electrical power. The term “Negawatts” can be used to describe the size and generating capacity of electrical power plants that we can avoid buying and building and fueling by investing in energy efficiency.
+
+In almost every case, Negawatts are a much better deal than Megawatts. And we can begin to “generate” Negawatts by paying attention to Wattmeters.
+
+
+---
+goeswith: 
+---
+show_parent: yes

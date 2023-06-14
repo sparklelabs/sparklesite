@@ -1,0 +1,17 @@
+_model: page
+---
+title: Wattmeter
+---
+body: 
+---
+show_parent: yes
+---
+goeswith: Wattmeter
+---
+downloads: Wattmeter Instructions
+---
+mainimage: wattmeter-instructions.png
+---
+show_mainimage: yes
+---
+tags: Shop

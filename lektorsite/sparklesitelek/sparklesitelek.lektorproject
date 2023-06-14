@@ -1,5 +1,5 @@
 [project]
-name = sparklesitelek
+name = Sparkle Labs
 
 [servers.production]
 enabled = yes

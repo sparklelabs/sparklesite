@@ -13,3 +13,5 @@ body:
 It can have downloads.
 ---
 downloads: Arduino Cheatsheet
+---
+_discoverable: yes

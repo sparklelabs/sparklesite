@@ -30,9 +30,8 @@ Materials: wattmeter, electric bill, extension cords, powerstrips, appliances, l
 - Reading your bill
 - Downloading your energy usage data.
 - Manipulating data in google sheets
-  - Separating gas/electric
-  - Graphing usage 
-
+    - Separating gas/electric
+    - Graphing usage 
 - Sample energy bill
 - Understanding your Energy Bill
 - Energy bill data spreadsheet

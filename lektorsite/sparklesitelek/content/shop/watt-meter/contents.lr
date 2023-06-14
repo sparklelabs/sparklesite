@@ -1,6 +1,6 @@
 _model: product
 ---
-title: Watt Meter
+title: Wattmeter
 ---
 mainimage: wattmeter.png
 ---
@@ -10,7 +10,7 @@ price: 18.00
 ---
 addtocart: 
 ---
-lessons: 
+lessons: Wattmeter
 ---
 downloads: Wattmeter Instructions
 ---

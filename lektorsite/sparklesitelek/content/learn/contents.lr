@@ -6,9 +6,6 @@ body:
 ---
 _discoverable: yes
 ---
-sections:
-
-Shop
-Projects
+sections: Shop
 ---
 show_pages: no

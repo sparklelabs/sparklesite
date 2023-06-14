@@ -108,6 +108,24 @@ footer a:hover {
 div.page {
 }
 
+ul, ol {
+  padding-left:0;
+}
+
+ul ul, ol ol {
+  /* margin-left:-1em; */
+  padding-left:0;
+  list-style-position:inside;
+}
+
+ul {
+  /* list-style-type: circle; */
+}
+
+li::marker {
+  color: var(--orange);
+}
+
 img {
     width: 100%;
 }
@@ -123,7 +141,7 @@ blockquote {
 }
 
 .tiny {
-    font-size: 10px;
+    font-size: ;
 }
 
 fourthree {
