@@ -3,19 +3,18 @@
 {% block body %}
 <h2>{{ this.title }}</h2>
 <div class="row">
-  <div class="col w90">
-    {{ this.gallery }}
-    <div class="productImage">
-      <img id="largeImage" src="{{ this.mainimage }}" alt="Default Image">
-      <!-- <div id="description">Default Description</div> -->
+  <div class="col">
+    <div id="productgrid">
+      <div id="productdiv">
+      <img id="productimage" src="{{ this.mainimage }}" alt="Default Image">
+      </div>
+      {% for image in this.attachments.images %}
+      <div id="thumbs">
+        <!-- <img src="{{ image|url }}" style="object-fit:cover"> -->
+        <img src="{{ image|url }}" style="">
+      </div>
+      {% endfor %}
     </div>
-  </div>
-  <div class="col" id="thumbs">
-    {% for image in this.attachments.images %}
-    <div style="flex:1 1 0">
-      <img src="{{ image|url }}" style="object-fit:cover">
-    </div>
-    {% endfor %}
   </div>
 </div>
 <div class="section" style="margin-bottom:6em">
