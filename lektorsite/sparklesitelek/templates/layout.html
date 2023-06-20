@@ -21,15 +21,15 @@
     <div class="page">
       <div id="content-wrap">
         <header style="margin-top:24px;margin-bottom:24px;display:flex;justify-content:space-between;align-items:flex-end">
-          <div class="" style="display:flex;align-items:flex-end">
+          <div id="logolockup" >
             <a href="{{ '/'|url }}">
-              <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image" style="bottom:0px;max-width:38px">
+              <img id="logo" src="{{ '/static/logo_flask.svg'|url }}" alt="Default Image">
             </a>
             <a href="{{ '/'|url }}">
-              <h1 style="margin:0px 0px 0px 4px;font-size:2em;color:var(--black)">Sparkle Labs</h1>
+              <h1 id="logotype">Sparkle Labs</h1>
             </a>
           </div>
-          <nav style="padding-left:4px;display:flex;align-items:flex-end">
+          <nav style="text-align:right;padding-left:4px;display:flex;align-items:flex-end">
             <ul class=" nav navbar-nav">
               <li{% if this._path == '/' %} class="active"{% endif %}>
                 <!-- <a href="{{ '/'|url }}">Home</a></li> -->

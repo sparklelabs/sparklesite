@@ -1,11 +1,7 @@
 /* * { outline: solid 1px green } */
 
 body {
-/* font-size: calc(10px + 0.390625vw); */
-font-size: calc(7px + .8vw);
-}
-h2 {
-font-size: 4em;
+/* font-size: clamp(12px, calc(7px + .8vw), 16px); */
 }
 .row {
 display:flex;
@@ -141,7 +137,7 @@ grid-template-columns: repeat(4, minmax(0, 1fr));;
 /* margin-right: 0; */
 }
 body {
-font-size: 16.53px;
+/* font-size: 16.53px; */
 }
 .gallery .col {
 }

@@ -13,15 +13,28 @@
 }
 
 body {
-margin-bottom: 16px;
+    margin-bottom: 16px;
     font-family: 'Inter', sans-serif;
     margin: 0px 0px;
     background-color: var(--white);
     color: var(--black);
 }
 
-.logo {
+#logolockup {
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+}
 
+#logo {
+  bottom:0px;
+  width:44px;
+}
+
+#logotype {
+margin:0px 0px 0px 4px;
+font-size:1.4em;
+color:var(--black);
 }
 
 .inline {
@@ -60,10 +73,12 @@ footer {
 #content-wrap {
   padding-bottom: 24px;    /* Footer height */
 }
+
+
 h2 {
     text-transform: uppercase;
     font-weight: 200;
-    /* font-size: 500%; */
+    font-size: 330%;
     margin-bottom: .25em;
     margin-top: 0em;
 }
@@ -79,8 +94,8 @@ header nav ul {
 }
 
 header nav ul li {
-    line-height: 16px;
-    font-weight: 400;
+    line-height: 28px;
+    /* font-weight: 400; */
     /* font-size: 80%; */
     margin: 0 8px 0 0;
     padding: 0;
@@ -141,7 +156,12 @@ blockquote {
 }
 
 .tiny {
-    font-size: ;
+    font-size: 80%;
+}
+
+.itemwidget {
+  margin-bottom: 1em;
+  font-weight: 400;
 }
 
 fourthree {
@@ -161,7 +181,7 @@ button, select {
 	height: 36px;
 	padding: 0 12px;
 	text-align: center;
-	font-size: 100%;
+	/* font-size: 100%; */
 	font-weight: 400;
 	letter-spacing: .1rem;
 	text-transform: uppercase;
@@ -204,9 +224,6 @@ a:hover {
     /* text-decoration-color: var(--blue); */
 }
 
-.justify {
-    text-align: justify;
-}
 .multiply {
   mix-blend-mode:multiply;
 }
@@ -233,11 +250,40 @@ a:hover {
   header nav ul li {
       display: inline;
   }
+
+  h2 {
+    font-size: 400%;
+  }
+#logolockup {
+ flex-direction: row;
+ align-items:flex-end;
+}
+
+.price {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:6em;
+}
+
+#logo {
+  width:38px;
+}
+
+#logotype {
+}
+
 button, select {
 	height: 42px;
 	padding: 0 18px;
 }
+.justify {
+    text-align: justify;
+}
 }
 
 @media only screen and (min-width: 1200px) {
+#logotype {
+font-size:2em;
+}
 }

@@ -8,7 +8,7 @@
       {% if this == product %} class="active"{% endif
         %}
     {% if product.accessory != True %}
-      <div class="col" style="">
+      <div class="col itemwidget" style="">
       <a href="{{ product|url }}"><img src="{{ product|url }}{{ product.mainimage }}">{{ product.title }}</a>
       </div>
     {% endif %}
@@ -23,7 +23,7 @@
       {% if this == item %} class="active"{% endif
         %}
     {% if item.accessory == True %}
-      <div class="col" style="">
+      <div class="col itemwidget" style="">
       <a href="{{ item|url }}"><img src="{{ item|url }}{{ item.mainimage }}">{{ item.title }}</a>
       </div>
     {% endif %}

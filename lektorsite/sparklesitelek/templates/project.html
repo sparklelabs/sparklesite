@@ -23,7 +23,7 @@
       {% set items = site.query('/downloads') %}
       {% for item in items %}
       {% if item.title == line %}
-      <div style="margin-bottom:1em">
+      <div class="itemwidget">
       <a href="{{ item|url }}{{ item.file_download }}" >
         <img src="{{ item|url }}{{ item.mainimage }}">
         {{ item.title }}
