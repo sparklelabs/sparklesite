@@ -13,3 +13,5 @@ tags: Shop
 show_menu: no
 ---
 downloads: Discover Electronics Cheatsheet
+---
+goeswith: Discover Electronics

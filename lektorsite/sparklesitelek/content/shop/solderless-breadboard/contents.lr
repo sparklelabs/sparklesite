@@ -29,3 +29,5 @@ Transparent
 lessons: Solderless Breadboard
 ---
 goeswith: Multimeter
+---
+buttonColor: pink

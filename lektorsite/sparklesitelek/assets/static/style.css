@@ -3,14 +3,15 @@
 --black: #27181f;
 --pink: #ec5999ff;
 --red: #ff595eff;
+--orange: #f7802bff;
 --yellow: #ffca3aff;
 --green: #8ac926ff;
 --blue: #1AA5C4ff;
---violet: #6a4c93ff;
+--violet: #7f5fadff;
 --grey: #aaa;
 --darkgrey: #555;
---orange: #f7802bff
 }
+
 
 body {
     margin-bottom: 16px;
@@ -18,6 +19,32 @@ body {
     margin: 0px 0px;
     background-color: var(--white);
     color: var(--black);
+}
+
+.whitebackground {
+  background-color:var(--white);
+}
+.pinkbackground {
+  background-color:var(--pink);
+}
+.redbackground {
+  background-color:var(--red);
+}
+.orangebackground {
+  background-color:var(--orange);
+}
+.yellowbackground {
+  background-color:var(--yellow);
+}
+.greenbackground {
+  background-color:var(--green);
+}
+.bluebackground {
+  background-color:var(--blue);
+}
+.violetbackground {
+  background-color:var(--violet);
+  color:var(--white);
 }
 
 #logolockup {
@@ -77,15 +104,16 @@ footer {
 
 h2 {
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 330%;
     margin-bottom: .25em;
     margin-top: 0em;
 }
 
 h3 {
-    color: var(--black);
-	text-transform: uppercase;
+    color: var(--violet);
+    text-transform: uppercase;
+    margin-bottom: 12px;
 }
 header nav ul {
     list-style: none;
@@ -158,10 +186,19 @@ blockquote {
 .tiny {
     font-size: 80%;
 }
-
+label {
+ font-weight:500;
+ position: absolute;
+ top: -18;
+}
 .itemwidget {
   margin-bottom: 1em;
   font-weight: 400;
+}
+
+.itemlabel {
+font-weight: 500;
+ margin-top: 4px;
 }
 
 fourthree {
@@ -190,14 +227,24 @@ button, select {
 	border-radius: 4px;
 	cursor: pointer;
 	box-sizing: border-box;
-    color: var(--darkgrey);
-    background-color: var(--white);
-	border: 1px solid var(--darkgrey);
+  color: var(--black);
+  background-color: var(--white);
+	border: 1px solid var(--black);
 }
+.price button {
+  /* background-color: var(--yellow); */
+}
+  .price {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:left;
+    /* justify-content:space-between; */
+    margin-bottom:6em;
+  }
 button:hover, select:hover {
-	color: var(--white);
-    background-color: var(--blue);
-	border: 1px solid var(--blue);
+	/* color: var(--white); */
+  background-color: var(--blue);
+	/* border: 1px solid var(--blue); */
 }
 
 .section {
@@ -245,8 +292,8 @@ a:hover {
 
 @media only screen and (min-width: 480px) {
   header nav {
-  margin-bottom: 2px;
-}
+    margin-bottom: 2px;
+  }
   header nav ul li {
       display: inline;
   }
@@ -254,32 +301,39 @@ a:hover {
   h2 {
     font-size: 400%;
   }
-#logolockup {
- flex-direction: row;
- align-items:flex-end;
-}
 
-.price {
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  margin-bottom:6em;
-}
+  #logolockup {
+  flex-direction: row;
+  align-items:flex-end;
+  }
 
-#logo {
-  width:38px;
-}
+  .price {
+    display:flex;
+    align-items:center;
+    /* justify-content:space-between; */
+    margin-bottom:6em;
+  }
 
-#logotype {
-}
+  #logo {
+    width:38px;
+  }
 
-button, select {
-	height: 42px;
-	padding: 0 18px;
-}
-.justify {
-    text-align: justify;
-}
+  #logotype {
+  }
+
+  button, select {
+    height: 42px;
+    padding: 0 18px;
+  }
+
+  .justify {
+      text-align: justify;
+  }
+  .price form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

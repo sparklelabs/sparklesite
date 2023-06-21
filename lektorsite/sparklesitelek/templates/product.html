@@ -6,7 +6,7 @@
   <div class="col">
     <div id="productgrid">
       <div id="productdiv">
-      <img id="productimage" src="{{ this.mainimage }}" alt="Default Image">
+        <img id="productimage" src="{{ this.mainimage }}" alt="Default Image">
       </div>
       {% for image in this.attachments.images %}
       <div id="thumbs">
@@ -17,50 +17,72 @@
     </div>
   </div>
 </div>
-<div class="section price">
-
+<div class="section price row" style="">
   <div>
-  <h2>
-    <sup style="font-size:47%;font-weight:400">$</sup>{{ this.price }}
-  </h2>
+    <h2 style="margin-bottom:0">
+      <sup style="font-size:47%;font-weight:400">$</sup>{{ this.price }}
+    </h2>
   </div>
-  <div>
-  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" style="">
+  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" class="row" style="">
     <INPUT NAME="item" TYPE="hidden" VALUE="{{ this.shopslabsnum }}" />
     <INPUT NAME="price" TYPE="hidden" VALUE="{{ this.price }}" />
     <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
     <INPUT NAME="do" TYPE="hidden" VALUE="add" />
-    {% if this.size %}
-    <select name="size">
-      {% for item in this.size %}
-      <option value="{{ item }}">{{ item }}</option>
-      {% endfor %}
-    </select>
-    {% endif %}
-    {% if this.color %}
-    <select name="color">
-      {% for item in this.color %}
-      <option value="{{ item }}">{{ item }}</option>
-      {% endfor %}
-    </select>
-    {% endif %}
-    <select name="qty">
-      <option selected="selected" value="1" >1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-    </select>
-
-    <button alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
-      Add to cart
-    </button>
+    <div>
+      <!-- <label for="Submit" class="tiny">. </label> -->
+      <button class="{{ this.buttonColor }}background" alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG" style="">
+        Add to cart
+      </button>
+    </div>
+    <div style="display:flex;flex-wrap:wrap">
+      <div style="margin-top:18px">
+        <div style="position:relative">
+          <label for="qty" class="tiny" style="">
+            Quantity
+          </label>
+        </div>
+        <select name="qty" id="qty">
+          <option selected="selected" value="1" >1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+      </div>
+      {% if this.size %}
+      <div style="margin-top:18px">
+        <div style="position:relative">
+          <label for="size" class="tiny" style="">
+            Size
+          </label>
+        </div>
+        <select name="size" id="size">
+          {% for item in this.size %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+      {% if this.color %}
+      <div style="margin-top:18px">
+        <div style="position:relative">
+          <label class="tiny" style="">
+            Color
+          </label>
+        </div>
+        <select name="color" id="color">
+          {% for item in this.color %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
   </FORM>
   </div>
 </div>
@@ -77,7 +99,7 @@
     {% endif %}
   </div>
   <div class="col half" style=''>
-      {% if this.lessons %}
+    {% if this.lessons %}
     <div class="section">
       <h3>Learn</h3>
       {% for line in this.lessons %}
@@ -85,17 +107,19 @@
       {% for item in items %}
       {% if item.title == line %}
       <div class="itemwidget">
-      <a href="{{ item|url }}" >
-        <img src="{{ item|url }}{{ item.mainimage }}">
-        {{ item.title }}
-      </a>
+        <a href="{{ item|url }}" >
+          <div class="itempic">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="itemlabel">{{ item.title }}</div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
       {% endfor %}
     </div>
-      {% endif %}
-      {% if this.downloads %}
+    {% endif %}
+    {% if this.downloads %}
     <div class="section">
       <h3>Downloads</h3>
       {% for line in this.downloads %}
@@ -103,17 +127,19 @@
       {% for item in items %}
       {% if item.title == line %}
       <div class="itemwidget">
-      <a href="{{ item|url }}{{ item.file_download }}" >
-        <img src="{{ item|url }}{{ item.mainimage }}">
-        {{ item.title }}
-      </a>
+        <a href="{{ item|url }}{{ item.file_download }}" >
+          <div class="itempic">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="itemlabel">{{ item.title }}</div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
       {% endfor %}
     </div>
-      {% endif %}
-      {% if this.goeswith %}
+    {% endif %}
+    {% if this.goeswith %}
     <div class="section">
       <h3>Goes with</h3>
       {% for line in this.goeswith %}
@@ -121,16 +147,18 @@
       {% for item in items %}
       {% if item.title == line %}
       <div class="itemwidget">
-      <a href="{{ item|url }}" >
-        <img src="{{ item|url }}{{ item.mainimage }}">
-        {{ item.title }}
-      </a>
+        <a href="{{ item|url }}" >
+          <div class="itempic">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="itemlabel">{{ item.title }}</div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
       {% endfor %}
     </div>
-      {% endif %}
+    {% endif %}
   </div>
 </div>
 {% endblock %}

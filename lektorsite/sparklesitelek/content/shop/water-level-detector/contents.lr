@@ -11,3 +11,5 @@ goeswith: Multimeter
 lessons: Water Level Detector
 ---
 mainimage: treeshot.jpg
+---
+buttonColor: red

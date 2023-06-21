@@ -45,3 +45,5 @@ sort_key: 0
 shopslabsnum: 4
 ---
 graphics: nonono_graphic.svg
+---
+buttonColor: green

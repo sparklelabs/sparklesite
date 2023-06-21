@@ -19,3 +19,5 @@ goeswith:
 sort_key: 1
 ---
 shopslabsnum: 200
+---
+buttonColor: green

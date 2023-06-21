@@ -8,8 +8,8 @@
       {% if this == product %} class="active"{% endif
         %}
     {% if product.accessory != True %}
-      <div class="col itemwidget" style="">
-      <a href="{{ product|url }}"><img src="{{ product|url }}{{ product.mainimage }}">{{ product.title }}</a>
+      <div class="itemwidget">
+      <a href="{{ product|url }}"><div class="itempic"><img src="{{ product|url }}{{ product.mainimage }}"></div><div class="itemlabel">{{ product.title }}</div></a>
       </div>
     {% endif %}
     {% endfor %}
@@ -23,8 +23,8 @@
       {% if this == item %} class="active"{% endif
         %}
     {% if item.accessory == True %}
-      <div class="col itemwidget" style="">
-      <a href="{{ item|url }}"><img src="{{ item|url }}{{ item.mainimage }}">{{ item.title }}</a>
+      <div class="itemwidget">
+      <a href="{{ item|url }}"><div class="itempic"><img src="{{ item|url }}{{ item.mainimage }}"></div><div class="itemlabel">{{ item.title }}</div></a>
       </div>
     {% endif %}
     {% endfor %}

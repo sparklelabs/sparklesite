@@ -30,7 +30,7 @@
       <div class="itemwidget">
       <a href="{{ item|url }}{{ item.file_download }}" >
         <img src="{{ item|url }}{{ item.mainimage }}">
-        {{ item.title }}
+        <span class="itemlabel">{{ item.title }}</span>
       </a>
       </div>
       {% endif %}
@@ -48,8 +48,10 @@
       {% if item.title == line %}
       <div class="itemwidget">
       <a href="{{ item|url }}" >
+        <div class="itempic">
         <img src="{{ item|url }}{{ item.mainimage }}">
-        {{ item.title }}
+        </div>
+        <div class="itemlabel">{{ item.title }}</div>
       </a>
       </div>
       {% endif %}
