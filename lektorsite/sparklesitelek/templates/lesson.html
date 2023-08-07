@@ -13,12 +13,12 @@
 <div class="row" style="margin-top:64px">
   <div class="col">
 {% if siblings.prev_page %}
-  <strong>⇠</strong> <a href="{{ siblings.prev_page|url }}">{{ siblings.prev_page.title }}</a>
+  <strong>&#8672;</strong> <a href="{{ siblings.prev_page|url }}">{{ siblings.prev_page.title }}</a>
 {% endif %}
 </div>
   <div class="col" style="text-align:right">
 {% if siblings.next_page %}
-  <a href="{{ siblings.next_page|url }}">{{ siblings.next_page.title }}</a> <strong>⇢</strong>
+  <a href="{{ siblings.next_page|url }}">{{ siblings.next_page.title }}</a> <strong>&#8674;</strong>
 {% endif %}
 </div>
 </div>
