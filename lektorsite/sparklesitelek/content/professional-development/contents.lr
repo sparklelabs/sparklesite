@@ -4,4 +4,30 @@ title: Professional Development
 ---
 _discoverable: no
 ---
-body: <span style="background-color:var(--yellow);font-weight:400;font-size:2em"> --UNDER CONSTRUCTION-- </span>
+body:
+<p style="background-color:var(--yellow);text-align:center;font-weight:400;font-size:2em"> --UNDER CONSTRUCTION-- </p>
+
+### Overview
+
+Sparkle Labs provides in person professional development services to educators in New Jersey and the New York metropolitan area and world wide virtually.
+
+<pre>
+- how we bring value
+- types of sessions
+- advantage of using us for pd
+</pre>
+
+### Topics
+
+- Climate Science with the NGSS standards
+- Discover Electronics
+- Discover Arduino
+- Circuit Python and the Raspberry PI Pico
+- User Experience Design
+
+---
+show_mainimage: yes
+---
+show_parent: no
+---
+mainimage: climate-pd-montclair.jpg
