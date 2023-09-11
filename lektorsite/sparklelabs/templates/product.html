@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<h2>{{ this.title }}</h2>
+    <div class="grid grid-cols-5 sm:grid-cols-6 grid-rows-5 gap-1 sm:gap-2">
+      <div class="col-span-5 row-span-5">
+        <img id="productimage" src="{{ this.mainimage }}" alt="Default Image" class="h-full">
+      </div>
+      {% for image in this.attachments.images %}
+        <div id="thumbs">
+        <!-- <img src="{{ image|url }}" style="object-fit:cover"> -->
+        <img src="{{ image|url }}" class="h-full">
+        </div>
+      {% endfor %}
+    </div>
+<div class="my-10 flex flex-col sm:flex-row gap-2">
+  <h2 class="mb-0 text-6xl sm:text-7xl">
+    <span class="text-base font-semibold -top-8 sm:-top-10 relative">$</span>{{ this.price }}
+  </h2>
+  <FORM ACTION="http://www.shopslabs.com/Shop_landing.php" METHOD="get" name="form" class="flex gap-2 items-start mt-3 sm:mt-2 ml-3 sm:ml-0">
+    <INPUT NAME="item" TYPE="hidden" VALUE="{{ this.shopslabsnum }}" />
+    <INPUT NAME="price" TYPE="hidden" VALUE="{{ this.price }}" />
+    <INPUT NAME="store" TYPE="hidden" VALUE="sparkle" />
+    <INPUT NAME="do" TYPE="hidden" VALUE="add" />
+      <!-- <label for="Submit" class="tiny">. </label> -->
+    <div class="flex flex-col -top-[17px] relative">
+      <label for="qty" class="text-xs font-light mb-px">
+        Quantity
+      </label>
+      <select name="qty" id="qty">
+        <option selected="selected" value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+      </select>
+    </div>
+      {% if this.size %}
+    <div class="flex flex-col -top-[17px] relative">
+      <label class="text-xs font-light mb-px">
+            Size
+          </label>
+        <select name="size" id="size">
+          {% for item in this.size %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+      {% if this.color %}
+    <div class="flex flex-col -top-[17px] relative">
+      <label class="text-xs font-light mb-px">
+            Color
+          </label>
+        <select name="color" id="color">
+          {% for item in this.color %}
+          <option value="{{ item }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+    <button class="bg-{{ this.buttonColor }}" alt="Add To Cart" name="Submit" id="Submit" value="ADD TO BAG">
+      Add to cart
+    </button>
+  </FORM>
+  </div>
+<hr>
+<div class="flex flex-col md:flex-row gap-5">
+  <div class="prose leading-tight basis-2/3">
+    {{ this.body }}
+    {% if this.graphics %}
+    <div class="">
+      {% for item in this.graphics %}
+      <img src="/static/graphics/{{ item }}" alt="infographic">
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <div class="basis-1/3">
+    {% if this.lessons %}
+      <h3>Learn</h3>
+    <div class="grid-cols-1">
+      {% for line in this.lessons %}
+      {% set items = site.query('/learn') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div class="link-block">
+        <a href="{{ item|url }}" >
+          <div class="">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="link-block-link">{{ item.title }}</div>
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if this.downloads %}
+      <h3>Downloads</h3>
+    <div class="grid-cols-1">
+      {% for line in this.downloads %}
+      {% set items = site.query('/downloads') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div class="link-block">
+        <a href="{{ item|url }}{{ item.file_download }}" >
+          <div class="">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="link-block-link">{{ item.title }}</div>
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if this.goeswith %}
+      <h3>Goes with</h3>
+    <div class="grid grid-cols-1">
+      {% for line in this.goeswith %}
+      {% set items = site.query('/shop') %}
+      {% for item in items %}
+      {% if item.title == line %}
+      <div class="link-block">
+        <a href="{{ item|url }}" >
+          <div class="">
+            <img src="{{ item|url }}{{ item.mainimage }}">
+          </div>
+          <div class="link-block-link">{{ item.title }}</div>
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+</div>
+{% endblock %}

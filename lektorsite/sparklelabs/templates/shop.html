@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="" style="margin-top:2em">
+  <h2>{{ this.title }}</h2>
+  <div class="link-block-container">
+    {% for product in site.get('/shop').children.order_by('sort_key') %}
+      {% if this == product %} class="active"{% endif
+        %}
+    {% if product.accessory != True %}
+      <div class="link-block">
+      <a href="{{ product|url }}">
+        <div class="">
+          <img src="{{ product|url }}{{ product.mainimage }}">
+        </div><div class="link-block-link">{{ product.title }}</div>
+      </a>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  </div>
+
+  <div class="" style="margin-top:2em">
+  <h2>Accessories</h2>
+  <div class="link-block-container">
+    {% for item in this.children %}
+      {% if this == item %} class="active"{% endif
+        %}
+    {% if item.accessory == True %}
+      <div class="link-block">
+      <a href="{{ item|url }}">
+        <div class="">
+          <img src="{{ item|url }}{{ item.mainimage }}">
+      </div>
+      <div class="link-block-link">{{ item.title }}</div></a>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  </div>
+{% endblock %}

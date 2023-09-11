@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<!-- <h2>{{ this.title }}</h2> -->
+<div style="">
+  <!--this could be markdown in the body field-->
+  <a href="/shop">
+  <img id="" class="" src="{{ this.hero }}" alt="Default Image">
+  </a>
+</div>
+{{ this.body }}
+{% endblock %}

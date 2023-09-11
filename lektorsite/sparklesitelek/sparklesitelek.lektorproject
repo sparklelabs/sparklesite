@@ -1,7 +1,0 @@
-[project]
-name = Sparkle Labs
-
-[servers.production]
-enabled = yes
-default = yes
-target = rsync://u46189280@home214987632.1and1-data.host/sparklelabs.com
