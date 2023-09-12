@@ -1280,6 +1280,10 @@ footer a:hover {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1360,6 +1364,30 @@ footer a:hover {
   gap: 1px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-blue {
+  border-color: #1AA5C4ff;;
+}
+
+.border-green {
+  border-color: #8ac926ff;;
+}
+
+.border-orange {
+  border-color: #f7802bff;;
+}
+
+.border-yellow {
+  border-color: #ffca3aff;;
+}
+
 .bg-blue {
   background-color: #1AA5C4ff;;
 }
@@ -1386,6 +1414,15 @@ footer a:hover {
 
 .bg-yellow {
   background-color: #ffca3aff;;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text-2xl {

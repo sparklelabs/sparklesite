@@ -5,28 +5,61 @@ title: Professional Development
 _discoverable: no
 ---
 body:
-<p style="background-color:var(--yellow);text-align:center;font-weight:400;font-size:2em"> --UNDER CONSTRUCTION-- </p>
 
 ### Overview
 
 Sparkle Labs provides in person professional development services to educators in New Jersey and the New York metropolitan area and world wide virtually.
 
-<pre>
-- how we bring value
-- types of sessions
-- advantage of using us for pd
-</pre>
+About our teaching style.
+
+How are PD is enjoyable for the teachers.
+
+How the person who books us will look good to their coworkers.
 
 ### Topics
 
-- Climate Science with the NGSS standards
-- Discover Electronics
-- Discover Arduino
-- Circuit Python and the Raspberry PI Pico
-- User Experience Design
+<div class="link-block-container">
 
+<div class="link-block p-2 border border-blue rounded">
+<h4 class="h-10">Meeting NGSS Climate Science Standards</h4>
+<img src="climate-pd-montclair.jpg" class="py-2">
+<p>
+Climate science standards are now required curriculum for many states. Creating actionable lessons that work in your context is one of the most difficult aspects of teaching professionally. We facilitate a heavily structured workshop using proven <em>design research methodologies</em>.
+</p>
+<p>
+Teachers are left with lessons and assessable tasks that work for their classrooms and mapped to specific standards.
+</p>
+</div>
+
+<div class="link-block p-2 border border-green rounded">
+<h4 class="h-10">Discover Electronics</h4>
+<img src="../shop/discover-electronics/discovercover.jpg" class="py-2">
+<p>
+copy
+</p>
+</div>
+
+<div class="link-block p-2 border border-yellow rounded">
+<h4 class="h-10">Programming Microcontrollers</h4>
+<img src="../shop/discover-arduino/arduino_breadboard.jpg" class="py-2">
+<p>
+</p>
+</div>
+
+<div class="link-block p-2 border border-orange rounded">
+<h4 class="h-10">User Experience Design</h4>
+<p>
+</p>
+</div>
+</div>
+
+### Contact
+
+Get in touch for a free consultation on how we can work within your particular context / resources.
+
+Contact info here.
 ---
-show_mainimage: yes
+show_mainimage: no
 ---
 show_parent: no
 ---

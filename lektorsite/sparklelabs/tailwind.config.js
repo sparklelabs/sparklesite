@@ -3,7 +3,11 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography')
   ],
-  content: ["./templates/*.html"],
+  content: [
+	  "./templates/*.html",
+	  "./content/*.lr",
+	  "./content/professional-development/*.lr",
+  ],
   theme: {
     fontFamily: {
       sans: [
