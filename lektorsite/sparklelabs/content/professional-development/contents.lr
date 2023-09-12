@@ -10,19 +10,16 @@ body:
 
 Sparkle Labs provides in person professional development services to educators in New Jersey and the New York metropolitan area and world wide virtually.
 
-About our teaching style.
-
-How are PD is enjoyable for the teachers.
-
-How the person who books us will look good to their coworkers.
+We are lifelong designers, teachers, and learners. Our professional development workshop are structured but interactive and adaptive. Our engaging, group activities allow educators to enjoy their PD workshop and learn to pass on that enjoyment to their students.
 
 ### Topics
 
-<div class="link-block-container">
+<div class="grid grid-cols-1 gap-3 sm:gap-5 sm:grid-cols-2 md:grid-cols-3">
 
-<div class="link-block p-2 border border-blue rounded">
-<h4 class="h-10">Meeting NGSS Climate Science Standards</h4>
-<img src="climate-pd-montclair.jpg" class="py-2">
+<div class="link-block p-4 border border-blue rounded">
+<h5 class="h-10">Meeting NGSS Climate Science Standards</h5>
+<img src="climate-pd-montclair.jpg" class="py-4">
+<div class="md:leading-tight">
 <p>
 Climate science standards are now required curriculum for many states. Creating actionable lessons that work in your context is one of the most difficult aspects of teaching professionally. We facilitate a heavily structured workshop using proven <em>design research methodologies</em>.
 </p>
@@ -30,34 +27,60 @@ Climate science standards are now required curriculum for many states. Creating 
 Teachers are left with lessons and assessable tasks that work for their classrooms and mapped to specific standards.
 </p>
 </div>
-
-<div class="link-block p-2 border border-green rounded">
-<h4 class="h-10">Discover Electronics</h4>
-<img src="../shop/discover-electronics/discovercover.jpg" class="py-2">
-<p>
-copy
-</p>
 </div>
 
-<div class="link-block p-2 border border-yellow rounded">
-<h4 class="h-10">Programming Microcontrollers</h4>
-<img src="../shop/discover-arduino/arduino_breadboard.jpg" class="py-2">
+<div class="link-block p-4 border border-green rounded">
+<h5 class="h-10">Discover Electronics</h5>
+<img src="../shop/discover-electronics/discovercover.jpg" class="py-4">
+<div class="md:leading-tight">
 <p>
+Our <a href:"../shop/discover-electronics">Discover Electronics</a> kit is one of the easiest ways to get started with electronics and applicable to many science standards.
+</p>
+<p>
+We offer a comprehensive development session focused getting you comfortable right away.
+We participants get hands on from the students perspective before moving on to topics such as, common issues, managing a classroom, and going beyond the included lessons.
 </p>
 </div>
+</div>
 
-<div class="link-block p-2 border border-orange rounded">
-<h4 class="h-10">User Experience Design</h4>
+<div class="link-block p-4 border border-yellow rounded">
+<h5 class="h-10">Programming Microcontrollers</h5>
+<img src="../shop/discover-arduino/arduino_breadboard.jpg" class="py-4">
+<div class="md:leading-tight">
 <p>
+Programming microcontrollers is a wonderful way to get into programming.
+Learners move beyond the screen to see results in the physical world.
 </p>
+<p>
+Getting the development environment right and onboarding students is one of the most difficult aspects of introducing microcontrollers into the learning environment.
+Our workshop will find the right setup for your classrooms and technology.
+</p>
+<p>
+We work with Arduino, Circuit Playground, and Raspberry Pi Pico in Arduino, Circuit Python, or block-based programming languages.
+</p>
+</div>
+</div>
+
+<div class="link-block p-4 border border-orange rounded">
+<h5 class="h-10">User Experience Design</h5>
+<img src="../shop/discover-arduino/arduino_breadboard.jpg" class="py-4">
+<div class="md:leading-tight">
+<p>
+UX design encompasses a variety of skills. Our workshop is a basic course for teachers on what modern UX design is and how UX design practices can be directly applied to lessons in the classroom that are both effective and fun.
+</p>
+<p>
+We cover how UX design is used in the workplace and give you ready to use lessons for your classroom.
+</p>
+</div>
 </div>
 </div>
 
 ### Contact
 
-Get in touch for a free consultation on how we can work within your particular context / resources.
+Get in touch for a free consultation on how we can work within your particular context and resources.
+- &#9993; <a href="mailto:info@sparklelab.com">email us</a>
+- &#9743; <a href="tel:212-777-8051">(212) 777-8051</a>
 
-Contact info here.
 ---
 show_mainimage: no
 ---
