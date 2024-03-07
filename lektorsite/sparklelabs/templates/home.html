@@ -7,6 +7,14 @@
   <a href="/shop">
   <img id="" class="" src="{{ this.hero }}" alt="Default Image">
   </a>
+  {{ this.body }}
 </div>
-{{ this.body }}
+<div class="flex flex-col md:flex-row gap-5">
+  <div class="md:w-1/2">
+    {{ this.leftcol }}
+  </div>
+  <div class="md:w-1/2">
+    {{ this.rightcol }}
+  </div>
+</div>
 {% endblock %}
