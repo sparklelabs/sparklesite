@@ -2,14 +2,25 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 <!-- <h2>{{ this.title }}</h2> -->
-<div class="my-36">
+
+<div class="my-36 bg-pink-500">
   <!--this could be markdown in the body field-->
   <a href="/shop">
   <img id="" class="" src="{{ this.hero }}" alt="Default Image">
   </a>
   {{ this.body }}
 </div>
+
 <div class="flex flex-col md:flex-row gap-5">
+  <div class="md:w-1/2">
+    {{ this.topleftcol }}
+  </div>
+  <div class="md:w-1/2">
+    {{ this.toprightcol }}
+  </div>
+</div>
+
+<div class="flex flex-col md:flex-row gap-5 mt-40">
   <div class="md:w-1/2">
     {{ this.leftcol }}
   </div>
