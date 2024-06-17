@@ -5,6 +5,9 @@ module.exports = {
   ],
   content: [
 	  "./**/*.html",
+	  "./templates/*.html",
+	  "./content/*.lr",
+	  "./content/professional-development/*.lr",
   ],
   theme: {
     fontFamily: {

@@ -11,3 +11,7 @@ _discoverable: yes
 show_parent: yes
 ---
 show_attachments: yes
+---
+body: The Starfish biofeedback device.
+---
+show_mainimage: yes
