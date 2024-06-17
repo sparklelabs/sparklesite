@@ -2,7 +2,7 @@ _model: project
 ---
 title: Sample Project
 ---
-tags: Projects
+tags: Shop
 ---
 show_mainimage: yes
 ---
@@ -14,4 +14,6 @@ It can have downloads.
 ---
 downloads: Arduino Cheatsheet
 ---
-_discoverable: yes
+_discoverable: no
+---
+_hidden: yes

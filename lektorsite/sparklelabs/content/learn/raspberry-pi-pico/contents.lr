@@ -1,0 +1,17 @@
+_model: page
+---
+title: Raspberry Pi Pico
+---
+body: This is the body.
+---
+mainimage: bb_rpipico.svg
+---
+show_mainimage: yes
+---
+show_parent: yes
+---
+tags: Projects
+---
+_discoverable: no
+---
+_hidden: yes
