@@ -34,3 +34,5 @@ mainimage: arduino.jpg
 goeswith: Discover Electronics
 ---
 downloads: Arduino Cheatsheet
+---
+mainimagethumbnail: arduino-small.jpg

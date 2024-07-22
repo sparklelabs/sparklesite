@@ -47,3 +47,5 @@ shopslabsnum: 4
 graphics: nonono_graphic.svg
 ---
 buttonColor: green
+---
+mainimagethumbnail: discovercover-small.jpg

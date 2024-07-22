@@ -30,3 +30,5 @@ shopslabsnum: 25
 mainimage: arduino_breadboard.jpg
 ---
 buttonColor: orange
+---
+mainimagethumbnail: arduino_breadboard-small.jpg

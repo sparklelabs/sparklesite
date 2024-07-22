@@ -39,3 +39,5 @@ size:
 mainimage: ledbuttons.jpg
 ---
 buttonColor: purple
+---
+mainimagethumbnail: ledbuttons-small.jpg
