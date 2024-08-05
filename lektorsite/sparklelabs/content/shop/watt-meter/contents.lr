@@ -23,3 +23,5 @@ shopslabsnum: 200
 buttonColor: green
 ---
 accessory: yes
+---
+mainimagethumbnail: wattmeter-small.png
