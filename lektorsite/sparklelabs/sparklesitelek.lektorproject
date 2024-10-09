@@ -4,8 +4,10 @@ name = Sparkle Labs
 [servers.production]
 enabled = yes
 default = yes
-target = rsync://u46189280@home214987632.1and1-data.host/sparklelabs.com
+target = rsync://u95607369@access762308390.webspace-data.io/sparklelabs.com
+
 
 [packages]
 lektor-tailwind = 0.2.0
 lektor-thumbnail-generator = 0.5.0
+lektor-google-analytics = 0.1.3

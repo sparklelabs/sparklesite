@@ -1,38 +1,29 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {%
+block body %}
 <!-- <h2>{{ this.title }}</h2> -->
-<a href="/journal/sparkle-labs-at-hope-iv">
-<div class="p-2 flex justify-between content-center items-center bg-aqua-light rounded shadow text-aqua-dark">
-<div class="mx-8">
-We will give our <em>Emergent Objects</em> workshop at <strong>HOPE XV</strong>!
-</div>
-<img src='/journal/sparkle-labs-at-hope-iv/hopexv-logo.png' class='max-w-32'/>
-</div>
-</a>
-<div class="my-36 ">
+<!-- <a href="/journal/sparkle-labs-at-hope-iv"> -->
+<!-- <div class="p-2 flex justify-between content-center items-center bg-aqua-light rounded shadow text-aqua-dark"> -->
+<!-- <div class="mx-8"> -->
+<!-- We will give our <em>Emergent Objects</em> workshop at <strong>HOPE XV</strong>! -->
+<!-- </div> -->
+<!-- <img src='/journal/sparkle-labs-at-hope-iv/hopexv-logo.png' class='max-w-32'/> -->
+<!-- </div> -->
+<!-- </a> -->
+<div class="my-36">
   <!--this could be markdown in the body field-->
   <a href="/shop">
-  <img id="" class="" src="{{ this.hero }}" alt="Default Image">
+    <img id="" class="" src="{{ this.hero }}" alt="Default Image" />
   </a>
   {{ this.body }}
 </div>
 
 <div class="flex flex-col md:flex-row gap-5">
-  <div class="md:w-1/2">
-    {{ this.topleftcol }}
-  </div>
-  <div class="md:w-1/2">
-    {{ this.toprightcol }}
-  </div>
+  <div class="md:w-1/2">{{ this.topleftcol }}</div>
+  <div class="md:w-1/2">{{ this.toprightcol }}</div>
 </div>
 
 <div class="flex flex-col md:flex-row gap-5 mt-40">
-  <div class="md:w-1/2">
-    {{ this.leftcol }}
-  </div>
-  <div class="md:w-1/2">
-    {{ this.rightcol }}
-  </div>
+  <div class="md:w-1/2">{{ this.leftcol }}</div>
+  <div class="md:w-1/2">{{ this.rightcol }}</div>
 </div>
 {% endblock %}
