@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,7 +11,20 @@
   <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
   <title>{% block title %}Welcome{% endblock %}</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <div class="ga-script">{{ generate_google_analytics() }}</div>
+
+
+<div class="ga-script">
+    <div id="ga-script"></div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTSDMEHF0R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HTSDMEHF0R');
+    </script>
+</div>
+
+  
   <script>
     window.onload = function () {
         $('#thumbs img').click(function(){
@@ -19,6 +33,7 @@
         });
     };
   </script>
+</head>
   <body class="">
     <main class="container min-h-screen mx-auto max-w-5xl flex flex-col justify-between">
           <header class="m-3 sm:m-5 flex justify-between">
