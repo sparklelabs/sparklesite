@@ -9,3 +9,5 @@ mainimage: Screenshot_20230613_083358.png
 show_mainimage: yes
 ---
 show_parent: yes
+---
+body: <img src="paper_tree.png" class="md:w-1/2">

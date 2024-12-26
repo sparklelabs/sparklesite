@@ -1,60 +1,45 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {%
+block body %}
 <div class="">
   {% if this.show_parent == True %}
-    <a href='{{ this.parent|url }}'>
-      {{ this.parent.title }}
-    </a>
+  <a href="{{ this.parent|url }}"> {{ this.parent.title }} </a>
   {% endif %}
   <h2>{{ this.title }}</h2>
-  {% if this.show_mainimage == True %}
-    {% if this.file_download %}
-      <a href="{{ this.file_download }}">
+  {% if this.show_mainimage == True %} {% if this.file_download %}
+  <a href="{{ this.file_download }}">
     {% endif %}
-    <img id="largeImage" src="{{ this.mainimage }}">
+    <img id="largeImage" src="{{ this.mainimage }}" class="mb-24" />
     {% if this.file_download %}
-      </a>
-    {% endif %}
-  {% endif %}
-    {{ this.body }}
-  {% if this.downloads %}
-    <h3>Downloads</h3>
+  </a>
+  {% endif %} {% endif %} {{ this.body }} {% if this.downloads %}
+  <h3>Downloads</h3>
   <div class="link-block-container">
-    {% for line in this.downloads %}
-    {% set items = site.query('/downloads') %}
-    {% for item in items %}
-    {% if item.title == line %}
+    {% for line in this.downloads %} {% set items = site.query('/downloads') %}
+    {% for item in items %} {% if item.title == line %}
     <div class="link-block">
-      <a href="{{ item|url }}{{ item.file_download }}" >
-        <img src="{{ item|url }}{{ item.mainimage }}">
+      <a href="{{ item|url }}{{ item.file_download }}">
+        <img src="{{ item|url }}{{ item.mainimage }}" />
         <span class="link-block-link">{{ item.title }}</span>
       </a>
     </div>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+    {% endif %} {% endfor %} {% endfor %}
   </div>
   {% endif %}
-  <div ></div>
+  <div></div>
   {% if this.goeswith %}
-    <h3>Goes with</h3>
+  <h3>Goes with</h3>
   <div class="link-block-container">
-    {% for line in this.goeswith %}
-    {% set items = site.query('/shop') %}
-    {% for item in items %}
-    {% if item.title == line %}
+    {% for line in this.goeswith %} {% set items = site.query('/shop') %} {% for
+    item in items %} {% if item.title == line %}
     <div class="link-block">
-      <a href="{{ item|url }}" >
+      <a href="{{ item|url }}">
         <div class="itempic">
-          <img src="{{ item|url }}{{ item.mainimage }}">
+          <img src="{{ item|url }}{{ item.mainimage }}" />
         </div>
         <div class="link-block-link">{{ item.title }}</div>
       </a>
     </div>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+    {% endif %} {% endfor %} {% endfor %}
   </div>
   {% endif %}
 </div>
