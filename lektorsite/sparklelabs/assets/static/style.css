@@ -1,127 +1,146 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+/* @import "@tailwindcss/typography"; */
+
+
+
+
+
+
+@theme {
+  /* colors */
+  --color-white: #f5f7e9;
+  --color-black: #27181f;
+  --color-dragonfruit: #ec5999ff;
+  --color-fire: #ff595eff;
+  --color-mandarin: #f7802bff;
+  --color-gold: #ffca3aff;
+  --color-leaf: #8ac926ff;
+  --color-aqua: #1AA5C4ff;
+  --color-sky: #21A9F5
+  --color-plum: #7f5fadff;
+  --color-flint: #aaa;
+  --color-cinder: #555;
 
 @layer base {
-    body {
-        @apply bg-white;
-        @apply text-black;
-        /* @apply md:text-justify; */
-    }
-    img {
-        @apply w-full;
-    }
-    p {
-        @apply mb-5;
-    }
-    a {
-        @apply text-aqua;
-        @apply underline;
-        @apply decoration-dotted;
-        @apply decoration-leaf;
-        @apply hover:decoration-wavy;
-        @apply hover:decoration-dragonfruit;
-    }
-    h2 {
-        @apply uppercase;
-        @apply font-thin;
-        @apply text-5xl;
-        @apply mb-4
-    }
-    h3 {
-        @apply font-bold;
-        @apply uppercase;
-        @apply text-plum;
-        @apply mt-4;
-        @apply first:mt-0;
-        @apply mb-2;
-    }
-    h4 {
-        @apply font-bold;
-        @apply mt-4;
-        @apply first:mt-0;
-    }
-    h5 {
-        @apply mt-4;
-        @apply first:mt-0;
-        @apply uppercase;
-    }
-    h6 {
-        @apply mt-4;
-        @apply first:mt-0;
-        @apply bg-dragonfruit;
-        @apply text-white;
-        @apply font-semibold;
-    }
-    hr {
-        @apply border-dotted;
-        @apply border-2;
-        @apply border-x-0;
-        @apply border-t-0;
-        @apply border-gold;
-        @apply my-2;
-    }
-    .prose blockquote {
-        @apply text-3xl;
-        @apply font-light;
-        @apply border-0;
-        @apply not-italic;
-        @apply p-0;
-    }
+  body {
+    @apply bg-white;
+    @apply text-black;
+    /* @apply md:text-justify; */
+  }
+  img {
+    @apply w-full;
+  }
+  p {
+    @apply mb-5;
+  }
+  a {
+    @apply text-aqua;
+    @apply underline;
+    @apply decoration-dotted;
+    @apply decoration-leaf;
+    @apply hover:decoration-wavy;
+    @apply hover:decoration-dragonfruit;
+  }
+  h2 {
+    @apply uppercase;
+    @apply font-thin;
+    @apply text-5xl;
+    @apply mb-4;
+  }
+  h3 {
+    @apply font-bold;
+    @apply uppercase;
+    @apply text-plum;
+    @apply mt-4;
+    @apply first:mt-0;
+    @apply mb-2;
+  }
+  h4 {
+    @apply font-bold;
+    @apply mt-4;
+    @apply first:mt-0;
+  }
+  h5 {
+    @apply mt-4;
+    @apply first:mt-0;
+    @apply uppercase;
+  }
+  h6 {
+    @apply mt-4;
+    @apply first:mt-0;
+    @apply bg-dragonfruit;
+    @apply text-white;
+    @apply font-semibold;
+  }
+  hr {
+    @apply border-dotted;
+    @apply border-2;
+    @apply border-x-0;
+    @apply border-t-0;
+    @apply border-gold;
+    @apply my-2;
+  }
+  .prose blockquote {
+    @apply text-3xl;
+    @apply font-light;
+    @apply border-0;
+    @apply not-italic;
+    @apply p-0;
+  }
 }
 @layer components {
-    .link-block {
-        @apply mb-4;
-        /* @apply sm:basis-1/3; */
-        /* @apply md:basis-1/4; */
-    }
-    .link-block-link {
-        @apply mt-2;
-        @appyl font-medium;
-    }
-    .link-block-container {
-        @apply grid;
-        @apply grid-cols-1;
-        @apply gap-3;
-        @apply sm:gap-5;
-        @apply sm:grid-cols-2;
-        @apply md:grid-cols-3;
-        @apply md:leading-tight;
-        @apply lg:grid-cols-4;
-        /* @apply flex; */
-        /* @apply flex-wrap; */
-        /* @apply flex-col; */
-        /* @apply sm:flex-row; */
-    }
-    button, select {
-        @apply h-9;
-        @apply text-center;
-        @apply uppercase;
-        @apply border-solid;
-        @apply border;
-        @apply border-black;
-        @apply rounded;
-        @apply text-xs;
-        @apply px-3;
-        @apply hover:bg-aqua;
-        @apply bg-white;
-        @apply cursor-pointer;
-        @apply inline-block;
-        @apply tracking-widest;
-
-    }
-    nav ul li a {
-        @apply no-underline;
-        @apply hover:underline;
-    }
-    .active a {
-        @apply text-dragonfruit;
-    }
-    footer a {
-        @apply text-black;
-        @apply no-underline;
-        @apply hover:underline;
-        @apply hover:decoration-wavy;
-        @apply hover:decoration-dragonfruit;
-    }
+  .link-block {
+    @apply mb-4;
+    /* @apply sm:basis-1/3; */
+    /* @apply md:basis-1/4; */
+  }
+  .link-block-link {
+    @apply mt-2;
+    @appyl font-medium;
+  }
+  .link-block-container {
+    @apply grid;
+    @apply grid-cols-1;
+    @apply gap-3;
+    @apply sm:gap-5;
+    @apply sm:grid-cols-2;
+    @apply md:grid-cols-3;
+    @apply md:leading-tight;
+    @apply lg:grid-cols-4;
+    /* @apply flex; */
+    /* @apply flex-wrap; */
+    /* @apply flex-col; */
+    /* @apply sm:flex-row; */
+  }
+  button,
+  select {
+    @apply h-9;
+    @apply text-center;
+    @apply uppercase;
+    @apply border-solid;
+    @apply border;
+    @apply border-black;
+    @apply rounded;
+    @apply text-xs;
+    @apply px-3;
+    @apply hover:bg-aqua;
+    @apply bg-white;
+    @apply cursor-pointer;
+    @apply inline-block;
+    @apply tracking-widest;
+  }
+  nav ul li a {
+    @apply no-underline;
+    @apply hover:underline;
+  }
+  .active a {
+    @apply text-dragonfruit;
+  }
+  footer a {
+    @apply text-black;
+    @apply no-underline;
+    @apply hover:underline;
+    @apply hover:decoration-wavy;
+    @apply hover:decoration-dragonfruit;
+  }
 }
