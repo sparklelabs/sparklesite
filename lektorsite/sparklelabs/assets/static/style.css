@@ -1,11 +1,6 @@
 @import "tailwindcss";
 /* @import "@tailwindcss/typography"; */
 
-
-
-
-
-
 @theme {
   /* colors */
   --color-white: #f5f7e9;
@@ -15,11 +10,12 @@
   --color-mandarin: #f7802bff;
   --color-gold: #ffca3aff;
   --color-leaf: #8ac926ff;
-  --color-aqua: #1AA5C4ff;
-  --color-sky: #21A9F5
+  --color-aqua: #1aa5c4ff;
+  --color-sky: #21a9f5;
   --color-plum: #7f5fadff;
   --color-flint: #aaa;
   --color-cinder: #555;
+}
 
 @layer base {
   body {
