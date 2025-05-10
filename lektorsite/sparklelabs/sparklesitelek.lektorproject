@@ -10,3 +10,4 @@ target = rsync://u95607369@access762308390.webspace-data.io/sparklelabs.com
 [packages]
 lektor-thumbnail-generator = 0.5.0
 lektor-tailwind = 0.3.0
+lektor-read-full-post = 0.3

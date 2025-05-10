@@ -35,7 +35,7 @@ Project images: BUTTON, SPAM LIFE, Biotelies, SqueezeMe and CK Mannequins
 
 + SunMod
 + Papertronics
-+ Arduino  Example projects and videos: 2
++ ArduinoExample projects and videos: 2
 
 ## + Reviews: Raephy Holmes, ASU professor? ##
 
@@ -51,7 +51,7 @@ Project images: BUTTON, SPAM LIFE, Biotelies, SqueezeMe and CK Mannequins
 + SunMod
 + Papertronics Lunar
 + Papertronics Blacklight
-+   Example projects and videos: 2
++ Example projects and videos: 2
 
 ## + Reviews: Samna DOE, MOUSE ##
 

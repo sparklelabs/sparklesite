@@ -4,6 +4,8 @@ author: Ariel Churi
 ---
 body:
 
+![](hopexv-logo.png)   
+
 [Hackers On Planet Earth]( https://www.hope.net/index.html) is a beautiful happening that takes place every two years in New York City. The 15th conference takes place July 12-14 in Queens at St. John's University.  We will be running a quick start version of our **Emergent Objects** workshop. 
 
 Here is a description of the full course:
@@ -35,10 +37,12 @@ We will cover the basics of coding and working with micro-controllers. By progra
 
 User testing and documentation are a vital step in the creation of complex objects. We will explore the process of pitching and defending our work as an aid to the design process.
 
-![](hopexv-logo.png)
+
 ---
 pub_date: 2024-06-20
 ---
 html: 
 ---
 show_html: no
+---
+hero: 

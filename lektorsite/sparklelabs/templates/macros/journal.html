@@ -15,6 +15,12 @@
     >
     {% else %} {{ post.author }} {% endif %} on {{ post.pub_date }}
   </p>
+  <div class="flex justify-center mx-auto mix-blend-multiply my-12">
+    {{ post.hero }}
+  </div>
   <div class="leading-tight mb-24">{{ post.body }}</div>
+  <div class="flex flex-wrap justify-center mx-auto mix-blend-multiply mb-12">
+    {{ post.gallery }}
+  </div>
 </div>
 {% endmacro %}

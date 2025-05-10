@@ -2,7 +2,15 @@ title: Mini Lesson 01: How Do LEDs Work.
 ---
 pub_date: 2024-10-15
 ---
-body:
+body: 
+---
+html: 
+---
+show_html: no
+---
+author: Ariel
+---
+gallery:
 
 
 ![](page1.png)
@@ -17,11 +25,6 @@ body:
 
 ![](page6.png)
 
-![](page7.png)
 
 ---
-html: 
----
-show_html: no
----
-author: Ariel
+hero: 
