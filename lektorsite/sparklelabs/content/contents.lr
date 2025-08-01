@@ -7,12 +7,7 @@ static/illustrations/breadboard.svg
 ---
 title: Welcome to Sparkle Labs!
 ---
-body:
-
-You can make electronic circuits for fun and profit.
-See our [shop.](shop)
-Build the future.
-
+body: 
 ---
 leftcol:
 
@@ -27,7 +22,7 @@ Call (212-777-8051) or [write](mailto:info@sparklelabs.com) us today to find out
 ---
 rightcol: ![](/journal/climate-change-professional-development-for-teachers/20230606-105557.jpg)
 ---
-topleftcol: ![](/about/photos/5036183419_b3ba071fc4_k1.jpg)
+topleftcol: ![](shop/discover-arduino/arduino_breadboard.jpg)
 ---
 toprightcol:
 
