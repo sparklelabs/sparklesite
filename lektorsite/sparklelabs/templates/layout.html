@@ -12,18 +12,6 @@
   <title>{% block title %}Welcome{% endblock %}</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-
-<div class="ga-script">
-    <div id="ga-script"></div>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTSDMEHF0R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-HTSDMEHF0R');
-    </script>
-</div>
-
   
   <script>
     window.onload = function () {
@@ -35,6 +23,7 @@
   </script>
 </head>
   <body class="">
+    {{ generate_google_analytics() }}
     <main class="container min-h-screen mx-auto max-w-5xl flex flex-col justify-between">
           <header class="m-3 sm:m-5 flex justify-between">
             <div class="flex flex-col sm:flex-row items-center sm:items-end sm:gap-0.5">

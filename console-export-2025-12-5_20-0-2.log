@@ -1,0 +1,35 @@
+
+                         _                          _       _   _
+                        | |                        | |     | | (_)
+  __ _  ___   ___   __ _| | ___    __ _ _ __   __ _| |_   _| |_ _  ___ ___
+ / _` |/ _ \ / _ \ / _` | |/ _ \  / _` | '_ \ / _` | | | | | __| |/ __/ __|
+| (_| | (_) | (_) | (_| | |  __/ | (_| | | | | (_| | | |_| | |_| | (__\__ \
+ \__, |\___/ \___/ \__, |_|\___|  \__,_|_| |_|\__,_|_|\__, |\__|_|\___|___/
+  __/ |             __/ |                              __/ |
+ |___/             |___/                              |___/
+analytics.js:49:359
+Running analytics_debug.js. This script is intended for testing and debugging only. analytics.js:49:359
+Initializing Google Analytics. analytics.js:49:359
+Running command: ga("create", "G-4WQ9FD297B", "auto") analytics.js:49:359
+Creating new tracker: t0 analytics.js:49:359
+Auto cookieDomain found: "none" analytics.js:49:359
+The tracking Id should only be of the format UA-NNNNNN-N. analytics.js:49:359
+Running command: ga("send", "pageview") analytics.js:49:359
+
+Sent beacon:
+v=1&_v=j102d&a=1811091107&t=pageview&_s=1&dl=http%3A%2F%2F127.0.0.1%2F&ul=en-us&dt=Welcome%20to%20Sparkle%20Labs!&sr=2176x1224&vp=2123x600&_u=AACAAEABAAAAACAAI~&jid=&gjid=&cid=1922967425.1746828907&tid=G-4WQ9FD297B&_gid=669476949.1764982190&_slc=1&z=127560587
+
+analytics.js:49:359
+_j1              (&jid)  analytics.js:49:359
+_j2              (&gjid) analytics.js:49:359
+adSenseId        (&a)    1811091107 analytics.js:49:359
+apiVersion       (&v)    1 analytics.js:49:359
+clientId         (&cid)  1922967425.1746828907 analytics.js:49:359
+hitType          (&t)    pageview analytics.js:49:359
+language         (&ul)   en-us analytics.js:49:359
+location         (&dl)   http://127.0.0.1/ analytics.js:49:359
+screenResolution (&sr)   2176x1224 analytics.js:49:359
+title            (&dt)   Welcome to Sparkle Labs! analytics.js:49:359
+trackingId       (&tid)  G-4WQ9FD297B analytics.js:49:359
+viewportSize     (&vp)   2123x600 analytics.js:49:359
+Registered new plugin: ga(provide, "render", Function) analytics.js:49:359
