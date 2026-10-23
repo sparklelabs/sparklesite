@@ -4,7 +4,7 @@ name = Sparkle Labs
 [servers.production]
 enabled = yes
 default = yes
-target = rsync://u95607369@access762308390.webspace-data.io/sparklelabs.com
+target = rsync://u46189280@home214987632.1and1-data.host/homepages/44/d214987632/htdocs/sparklelabs.com
 
 
 [packages]

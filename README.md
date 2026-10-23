@@ -1,8 +1,40 @@
 # sparklesite
 Repo for files relating to the new site
 
-1. Run "lektor server" from lektorsite/sparklelabs/
-2. Point browser to 127.0.0.1:50000
+## Installation
+
+Lektor requires Python 3. You can install it using any of the following methods:
+
+### Option 1: Using pipx (Recommended)
+```bash
+pipx install lektor
+```
+
+### Option 2: Official installer script (macOS / Linux)
+```bash
+curl -sf https://www.getlektor.com/installer.py | python3
+```
+
+### Option 3: In a Python virtual environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install lektor
+```
+
+---
+
+## Running Locally
+
+1. Navigate to the project directory:
+   ```bash
+   cd lektorsite/sparklelabs
+   ```
+2. Start the local development server:
+   ```bash
+   lektor server
+   ```
+3. Open your browser and go to `http://127.0.0.1:50000` (or `http://127.0.0.1:5000`).
 
 ---
 

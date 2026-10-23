@@ -1,9 +1,6 @@
 _model: home
 ---
-hero:
-
-static/illustrations/breadboard.svg
-
+hero: /static/home-images/sparkle-hanahou-wall.jpg
 ---
 title: Welcome to Sparkle Labs!
 ---

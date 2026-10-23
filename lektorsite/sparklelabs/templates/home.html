@@ -1,48 +1,138 @@
-{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {%
-block body %}
-<!-- <h2>{{ this.title }}</h2> -->
-<!-- <a href="/journal/sparkle-labs-at-hope-iv"> -->
-<!-- <div class="p-2 flex justify-between content-center items-center bg-aqua-light rounded shadow text-aqua-dark"> -->
-<!-- <div class="mx-8"> -->
-<!-- We will give our <em>Emergent Objects</em> workshop at <strong>HOPE XV</strong>! -->
-<!-- </div> -->
-<!-- <img src='/journal/sparkle-labs-at-hope-iv/hopexv-logo.png' class='max-w-32'/> -->
-<!-- </div> -->
-<!-- </a> -->
-<div
-  class="h-[calc(100vh-106.5px)] flex flex-col justify-center mix-blend-multiply"
->
-  <!--this could be markdown in the body field-->
-  <div class="mx-auto mb-24">
-    <h1
-      class="font-black text-5xl sm:text-6xl md:text-7xl text-fire uppercase mb-1"
-    >
-      High-Design Electronics Kits
-    </h1>
-    <h1
-      class="font-black text-3xl sm:text-4xl md:text-5xl text-aqua mb-6 md:mb-10"
-    >
-      For art and commerce
-    </h1>
-    <a class="" href="/shop">
-      <img
-        id=""
-        class="lg:-translate-x-4"
-        src="{{ this.hero }}"
-        alt="Default Image"
-      />
-    </a>
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block site %}
+<!-- 100% Full-bleed Hero Section (Tuesday Labs Style) -->
+<section class="relative w-full h-[100dvh] min-h-[600px] flex flex-col justify-between overflow-hidden">
+  <!-- 100% Background Image -->
+  <img
+    id="hero-bg-img"
+    src="{{ this.hero|url }}"
+    alt="Sparkle Labs Hero"
+    class="absolute inset-0 w-full h-full object-cover object-center -z-20"
+  />
+  <script>
+    (function () {
+      var heroImages = [
+        "{{ '/static/home-images/sparkle-hanahou-wall.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-rainbow-leds.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-studio-floor-01.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-studio-floor-multimeter.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-theremin-kit.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-maker-faire-workshop.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-lab-workshop-table.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-hands-building-circuit.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-electronics-desk.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-breadboard-components.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-kit-parts-closeup.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-breadboard-wiring.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-lab-workstation.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-prototyping-station.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-hands-soldering.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-arduino-breadboard.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-classroom-breadboarding.jpg'|url }}",
+        "{{ '/static/home-images/sparkle-papertronics-uv-skull.jpg'|url }}"
+      ];
+
+      var lastIndex = Math.floor(Math.random() * heroImages.length);
+      var img = document.getElementById('hero-bg-img');
+
+      // Set initial random image
+      if (img && heroImages[lastIndex]) {
+        img.src = heroImages[lastIndex];
+      }
+
+      function getNextRandomIndex() {
+        if (heroImages.length <= 1) return 0;
+        var next;
+        do {
+          next = Math.floor(Math.random() * heroImages.length);
+        } while (next === lastIndex);
+        lastIndex = next;
+        return next;
+      }
+
+      function swapNextAbrupt() {
+        if (!img) return;
+        var nextSrc = heroImages[getNextRandomIndex()];
+        var preload = new Image();
+        preload.onload = function () {
+          img.src = nextSrc;
+        };
+        preload.src = nextSrc;
+      }
+
+      // Shuffle every 2 minutes (120,000 ms) abruptly
+      setInterval(swapNextAbrupt, 120000);
+    })();
+  </script>
+
+  <!-- Vignette effect hidden for now -->
+  <!-- <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70 -z-10 pointer-events-none"></div> -->
+
+  <!-- Transparent floating navigation -->
+  {{ render_nav('hero') }}
+
+  <!-- Center/Center, 98% wide, Flush-left alignment -->
+  <div class="my-auto w-[98%] max-w-[98vw] px-4 sm:px-8 md:px-12 select-none z-10 flex flex-col items-start justify-center">
+    <div class="w-full overflow-visible">
+      <h1 class="text-[19vw] sm:text-[14.5vw] md:text-[15.5vw] leading-[0.86] text-white drop-shadow-2xl overflow-visible" style="letter-spacing: -0.068em;">
+        <span class="block sm:inline font-chalet-black uppercase">S<span class="inline-block">P</span><span class="inline-block" style="margin-left: -0.095em;">A</span>RKLE</span><span class="block sm:inline font-chalet-thin lowercase opacity-95 sm:ml-[0.02em]" style="letter-spacing: -0.05em;">labs</span>
+      </h1>
+    </div>
+
+    <div class="-mt-0.5 sm:-mt-1 md:-mt-2 w-full text-left overflow-visible" style="padding-left: clamp(4px, 0.75vw, 14px);">
+      <p class="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl font-light text-white/95 tracking-tight drop-shadow whitespace-normal sm:whitespace-nowrap leading-tight">
+        High-design electronics kits for art, education, and commerce.
+      </p>
+    </div>
+
+    <div class="mt-3 sm:mt-4 flex flex-wrap items-center gap-3" style="padding-left: clamp(4px, 0.75vw, 14px);">
+      <a
+        href="{{ '/shop'|url }}"
+        class="interactive-btn group relative overflow-hidden isolate inline-flex items-center justify-center text-center px-6 pt-3 pb-2.5 leading-none bg-black/20 backdrop-blur-md text-xs sm:text-sm font-semibold uppercase tracking-wider transition duration-200 shadow-sm !no-underline"
+      >
+        <span class="spotlight pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-0 h-0 rounded-full bg-white opacity-0 group-hover:w-44 group-hover:h-44 group-hover:opacity-100 transition-[width,height,opacity] duration-300 ease-out"></span>
+        <span class="relative z-10 translate-y-[1px] mix-blend-difference !text-white select-none">Shop</span>
+      </a>
+      <a
+        href="{{ '/learn'|url }}"
+        class="interactive-btn group relative overflow-hidden isolate inline-flex items-center justify-center text-center px-6 pt-3 pb-2.5 leading-none bg-black/20 backdrop-blur-md text-xs sm:text-sm font-semibold uppercase tracking-wider transition duration-200 shadow-sm !no-underline"
+      >
+        <span class="spotlight pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-0 h-0 rounded-full bg-white opacity-0 group-hover:w-44 group-hover:h-44 group-hover:opacity-100 transition-[width,height,opacity] duration-300 ease-out"></span>
+        <span class="relative z-10 translate-y-[1px] mix-blend-difference !text-white select-none">Learn</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom Indicator -->
+  <div class="w-full px-4 sm:px-8 md:px-12 py-5 flex justify-between items-center text-xs uppercase tracking-widest text-white/75 font-mono z-10">
+    <span>MONTCLAIR NEW JERSEY</span>
+    <span class="animate-bounce inline-flex items-center gap-1.5 text-xs sm:text-sm font-medium tracking-widest uppercase text-white/90">
+      <span>SCROLL</span>
+      <span class="text-sm sm:text-base leading-none">&darr;</span>
+    </span>
+  </div>
+</section>
+
+<!-- Below the Fold: Preserved in standard container -->
+<main class="container mx-auto max-w-5xl px-4 sm:px-6 py-20 flex-grow">
+  {% if this.body %}
+  <div class="mb-16 prose max-w-none">
     {{ this.body }}
   </div>
-</div>
+  {% endif %}
 
-<div class="flex flex-col md:flex-row gap-5">
-  <div class="md:w-1/2 not-prose">{{ this.topleftcol }}</div>
-  <div class="md:w-1/2">{{ this.toprightcol }}</div>
-</div>
+  <div class="flex flex-col md:flex-row gap-8 items-start">
+    <div class="md:w-1/2 not-prose">{{ this.topleftcol }}</div>
+    <div class="md:w-1/2">{{ this.toprightcol }}</div>
+  </div>
 
-<div class="flex flex-col md:flex-row gap-5 mt-40">
-  <div class="md:w-1/2">{{ this.leftcol }}</div>
-  <div class="md:w-1/2 not-prose">{{ this.rightcol }}</div>
-</div>
+  <div class="flex flex-col md:flex-row gap-8 items-start mt-28">
+    <div class="md:w-1/2">{{ this.leftcol }}</div>
+    <div class="md:w-1/2 not-prose">{{ this.rightcol }}</div>
+  </div>
+
+  {{ render_footer() }}
+</main>
 {% endblock %}
